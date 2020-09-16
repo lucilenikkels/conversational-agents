@@ -1,5 +1,9 @@
 package furhatos.app.spaceshipattendant.flow
 
+import furhatos.flow.kotlin.*
+import furhatos.nlu.common.*
+import java.awt.Robot
+
 /*val Start : State = state(Interaction) {
 
     onEntry {

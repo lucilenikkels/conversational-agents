@@ -1,11 +1,12 @@
 package furhatos.app.spaceshipattendant
 
-import furhatos.app.spaceshipattendant.nlu.FruitList
+import furhatos.app.spaceshipattendant.nlu.Guests
 import furhatos.records.User
 
-class FruitData (
-        var fruits : FruitList = FruitList()
+
+class CheckinData (
+        var guestNumber : Guests = Guests()
 )
 
-val User.order : FruitData
-    get() = data.getOrPut(FruitData::class.qualifiedName, FruitData())
+val User.checkinData : CheckinData
+    get() = data.getOrPut(CheckinData::class.qualifiedName, CheckinData())
