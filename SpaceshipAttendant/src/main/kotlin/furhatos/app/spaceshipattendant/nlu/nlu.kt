@@ -2,9 +2,11 @@ package furhatos.app.spaceshipattendant.nlu
 
 import furhatos.nlu.*
 import furhatos.nlu.common.Number
+import furhatos.nlu.common.PersonName
 import furhatos.util.Language
 
 class Guests: Number()
+
 
 class CheckIn : Intent() {
     override fun getExamples(lang: Language): List<String> {

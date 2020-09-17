@@ -30,12 +30,13 @@ val CheckinCancel = state {
 val RobotIntro : State = state {
     onEntry {
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
-                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today?")
+                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today")
+        delay(500)
         furhat.ask("Would you like to check in?")
     }
 
     onResponse<No> {
-        goto(CheckinCancel)
+        goto(Goodbye)
     }
 
     onResponse<CheckIn> {
@@ -88,6 +89,7 @@ val CheckinIntro = state {
 val HowManyGuests = state {
     onEntry {
         furhat.say("Let's get started then.")
+        delay(500)
         furhat.ask("How many people would you like to checkin?")
     }
 
@@ -102,9 +104,31 @@ val HowManyGuests = state {
     }
 }
 
+val Amenities = state{
+    onEntry {
+       furhat.say("You are provided a bed, a table, a chair, and a Replicator, which allows you to instantly create any dish you've ever wanted to eat, in the comfort of your room.")
+        goto(FurtherDetails)
+    }
+}
+
+val FurtherDetails = state{
+    onEntry {
+        furhat.say("Perfect. Now, could you give me your name, how long you intend to stay on Starship Enterprise, and whether you would like to stay in our Suite-class rooms or the Citizen-class rooms?")
+    }
+}
+
 fun GuestsHeared(guests: Guests) : State = state(Interaction) {
     onEntry {
         users.current.checkinData.guestNumber = guests
         furhat.say("$guests guests, alright.")
+        delay(200)
+        furhat.ask("By the way, would you like to know about the available amenities in our rooms?")
+        }
+    onResponse<Yes> {
+        goto(Amenities)
+    }
+
+    onResponse<No> {
+        goto(FurtherDetails)
     }
 }
