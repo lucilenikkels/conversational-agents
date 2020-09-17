@@ -66,7 +66,8 @@ val UserDeclines = state {
     }
 
     onResponse<Yes> {
-        goto(Goodbye)
+        furhat.say("Goodbye then.")
+        goto(Idle)
     }
 }
 
@@ -93,6 +94,10 @@ val HowManyGuests = state {
         furhat.ask("How many people would you like to checkin?")
     }
 
+    onReentry {
+        furhat.ask("How many people would you like to checkin?")
+    }
+
     onResponse<NumberOfGuests> {
         val guests = it.intent.gs
         if (guests != null) {
@@ -111,9 +116,25 @@ val Amenities = state{
     }
 }
 
-val FurtherDetails = state{
+val FurtherDetails : State = state {
     onEntry {
-        furhat.say("Perfect. Now, could you give me your name, how long you intend to stay on Starship Enterprise, and whether you would like to stay in our Suite-class rooms or the Citizen-class rooms?")
+        furhat.ask(" Perfect. Now, could you give me your name, how long you intend to stay on Starship\n" +
+                "Enterprise, and whether you would like to stay in our Suite-class rooms or the Citizen-class rooms?\n"+
+                "Suite class have 2 beds, citizen-class have 1 bed.")
+    }
+
+    onReentry {
+        furhat.ask("Could you repeat that?")
+    }
+
+    onResponse<Details> {
+        val name = it.intent.name
+        val duration = it.intent.duration
+        val type = it.intent.type
+        if (duration != null) {
+            furhat.say("Noted. $name wants to stay ${duration.toText()} in $type rooms.")
+            goto(detailsReceived(name,duration,type))
+        }
     }
 }
 
@@ -130,5 +151,15 @@ fun GuestsHeared(guests: Guests) : State = state(Interaction) {
 
     onResponse<No> {
         goto(FurtherDetails)
+    }
+}
+
+fun detailsReceived(name: String? = "", duration: Duration?, type: Type?) : State = state {
+    onEntry {
+        users.current.checkinData.name = name
+        users.current.checkinData.duration = duration
+        users.current.checkinData.type = type
+        furhat.say(" Amazing. The data has been entered to your name, $name.")
+        goto(Idle)
     }
 }
