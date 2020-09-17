@@ -1,10 +1,12 @@
 package furhatos.app.spaceshipattendant.nlu
 
-import furhatos.nlu.*
+import furhatos.nlu.EnumEntity
+import furhatos.nlu.Intent
+import furhatos.nlu.WildcardEntity
 import furhatos.nlu.common.Number
+import furhatos.nlu.common.PersonName
 import furhatos.util.Language
 
-class Guests: Number()
 
 class CheckIn : Intent() {
     override fun getExamples(lang: Language): List<String> {
@@ -14,41 +16,38 @@ class CheckIn : Intent() {
 
 class Help : Intent() {
     override fun getExamples(lang: Language): List<String> {
-        return listOf("Who are you?", "Where am I?", "What is this", "What")
+        return listOf("Who are you?", "Where am I?", "What is this", "What?", "Help")
     }
 }
 
-class NumberOfGuests(var gs : Guests? = null) : Intent() {
+class NumberOfGuests(var gs : Number? = Number(1)) : Intent() {
     override fun getExamples(lang: Language): List<String> {
         return listOf("@gs", "@gs people", "@gs persons")
     }
 }
 
-class Type : EnumEntity(speechRecPhrases = true) {
+class RoomType : EnumEntity(speechRecPhrases = true) {
     override fun getEnum(lang: Language): List<String> {
-        return listOf("suite", "citizen")
+        return listOf("suite", "citizen room")
+    }
+
+    override fun getSpeechRecPhrases(lang: Language): List<String> {
+        return listOf("suite")
     }
 }
 
-class Duration(
-        var count : Number? = Number(1),
-        var unit : String? = null) : EnumEntity() {
-    override fun getEnum(lang: Language): List<String> {
-        return listOf("@count @unit", "@unit")
-    }
+class DurationEntity: WildcardEntity("duration", Details())
 
-    override fun toText(): String {
-        return "$count $unit"
-    }
-}
 
-open class Details(
-        var name : String? = null,
-        var duration : Duration? = null,
-        var type : Type? = null
-) : Intent() {
+class Details : Intent() {
+
+    var name : PersonName? = null
+    var duration : DurationEntity? = null
+    var type : RoomType? = null
 
     override fun getExamples(lang: Language): List<String> {
-        return listOf("My name is @name and I'm planning on staying @duration in the @type room")
+        return listOf("My name is @name and I'm planning on staying for @duration in the @type.",
+                "I am @name and I will stay for @duration in the @type",
+                "My name is @name and I will be here for @duration in the @type")
     }
 }

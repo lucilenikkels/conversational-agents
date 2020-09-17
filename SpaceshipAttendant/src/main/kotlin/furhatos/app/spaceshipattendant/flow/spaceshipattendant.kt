@@ -3,8 +3,14 @@ package furhatos.app.spaceshipattendant.flow
 import furhatos.app.spaceshipattendant.checkinData
 import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.flow.kotlin.*
-import furhatos.nlu.common.*
-import java.awt.Robot
+import furhatos.nlu.common.No
+import furhatos.nlu.common.PersonName
+import furhatos.nlu.common.Yes
+
+val NUM_SUITES = 10
+val NUM_CITIZEN_ROOMS = 10
+var suitesBooked = 0
+var citizenRoomsBooked = 0
 
 val Start = state(Interaction) {
     onEntry {
@@ -23,7 +29,7 @@ val Start = state(Interaction) {
 val RobotIntro : State = state {
     onEntry {
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
-                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today?")
+                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today.")
         furhat.ask("Would you like to check in?")
     }
 
@@ -85,7 +91,8 @@ val HowManyGuests = state {
     onResponse<NumberOfGuests> {
         val guests = it.intent.gs
         if (guests != null) {
-            goto(GuestsHeared(guests))
+            users.current.checkinData.guestNumber = guests
+            goto(RandomQuestion)
         }
         else {
             propagate()
@@ -93,11 +100,19 @@ val HowManyGuests = state {
     }
 }
 
-fun GuestsHeared(guests: Guests) : State = state {
+val RandomQuestion = state(Interaction) {
     onEntry {
-        users.current.checkinData.guestNumber = guests
-        furhat.say("Great.")
-        goto(RandomQuestion)
+        furhat.ask("Great. By the way, would you like to know about the available amenities in our rooms?")
+    }
+
+    onResponse<Yes> {
+        furhat.say(" You are provided a bed, a table, a chair, and a Replicator, which allows you to instantly\n" +
+                "create any dish you've ever wanted to eat, in the comfort of your own room.\n")
+        goto(FurtherDetails)
+    }
+
+    onResponse<No> {
+        goto(FurtherDetails)
     }
 }
 
@@ -116,34 +131,45 @@ val FurtherDetails : State = state {
         val name = it.intent.name
         val duration = it.intent.duration
         val type = it.intent.type
+        val guests = users.current.checkinData.guestNumber
         if (duration != null) {
-            furhat.say("Noted. $name wants to stay ${duration.toText()} in $type rooms.")
-            goto(detailsReceived(name,duration,type))
+            if (type?.value.equals("suite")) {
+                val roomsLeft = NUM_SUITES - suitesBooked
+                val roomsNeeded = guests?.value!!.div(2)
+                if (roomsNeeded > roomsLeft) {
+                    goto(Overloaded(roomsLeft))
+                }
+            } else if (type?.value.equals("citizen room")) {
+                val roomsLeft = NUM_CITIZEN_ROOMS - citizenRoomsBooked
+                val roomsNeeded = guests?.value!!
+                if (roomsNeeded > roomsLeft) {
+                    goto(Overloaded(roomsLeft))
+                }
+            }
+            furhat.say("Noted. $name wants to stay for $duration in the $type.")
+            goto(detailsReceived(name, duration, type))
         }
     }
 }
 
-val RandomQuestion : State = state(FurtherDetails) {
+fun Overloaded(roomsLeft : Int) = state(Interaction) {
     onEntry {
-        furhat.ask(" By the way, would you like to know about the available amenities in our rooms?")
-    }
-
-    onResponse<Yes> {
-        furhat.say(" You are provided a bed, a table, a chair, and a Replicator, which allows you to instantly\n" +
-                "create any dish you've ever wanted to eat, in the comfort of your own room.\n")
-        goto(FurtherDetails)
-    }
-
-    onResponse<No> {
-        goto(FurtherDetails)
+        furhat.say(" Unfortunately there are no rooms left of this kind. We only " +
+            "have $roomsLeft rooms of this kind free. " +
+            "Would you like to change the number of people you are checking in?")
     }
 }
 
-fun detailsReceived(name: String? = "", duration: Duration?, type: Type?) : State = state {
+fun detailsReceived(name: PersonName? = null, duration: DurationEntity?, type: RoomType?) : State = state {
     onEntry {
         users.current.checkinData.name = name
         users.current.checkinData.duration = duration
         users.current.checkinData.type = type
+        if (type?.value.equals("suite")) {
+            suitesBooked++
+        } else if (type?.value.equals("citizen room")) {
+            citizenRoomsBooked++
+        }
         furhat.say(" Amazing. The data has been entered to your name, $name.")
         goto(Idle)
     }
