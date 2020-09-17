@@ -5,6 +5,7 @@ import furhatos.skills.Skill
 import furhatos.flow.kotlin.*
 
 class SpaceshipattendantSkill : Skill() {
+
     override fun start() {
         Flow().run(Idle)
     }
