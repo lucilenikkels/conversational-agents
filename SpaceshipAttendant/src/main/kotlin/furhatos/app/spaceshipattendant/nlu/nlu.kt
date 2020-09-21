@@ -9,6 +9,7 @@ class Guests: Number()
 class Duration: Number()
 class WishList: ListEntity<Wish>()
 class ActivityList : ListEntity<Activity>()
+class Wish: WildcardEntity("wish", NewWish())
 
 class StartOver: Intent() {
     override fun getExamples(lang: Language): List<String> {
@@ -59,13 +60,9 @@ open class Details(
     }
 }
 
-class Wish : EnumEntity(speechRecPhrases = true) {
-    override fun getEnum(lang: Language): List<String> {
-        return listOf("extra towels", "room service")
-    }
-}
+class NewWish() : Intent() {
+    var wish: Wish? = null
 
-class NewWish(var wish : Wish? = null) : Intent() {
     override fun getExamples(lang: Language): List<String> {
         return listOf("I want @wish", "I would like @wish", "Please give me @wish", "Yes I want @wish",
                 "Yes I would like @wish", "Yes please give me @wish")

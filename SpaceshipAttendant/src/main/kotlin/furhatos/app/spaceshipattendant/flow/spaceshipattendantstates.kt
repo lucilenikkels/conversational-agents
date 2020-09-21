@@ -300,6 +300,7 @@ val EndState : State = state {
         furhat.say("Understood. You have now successfully checked in. You will soon be teleported to your\n" +
                 "room, and your luggage will be delivered by our staff. We hope your stay at Starship\n" +
                 "Enterprise will be a fun and relaxing one.")
+        println(users.current.checkinData)
         goto(Idle)
     }
 }

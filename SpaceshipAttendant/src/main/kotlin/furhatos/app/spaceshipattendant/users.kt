@@ -16,6 +16,3 @@ class CheckinData (
 
 val User.checkinData : CheckinData
     get() = data.getOrPut(CheckinData::class.qualifiedName, CheckinData())
-
-var citizenRooms : Number? = 2
-var suiteRooms : Number? = 5
