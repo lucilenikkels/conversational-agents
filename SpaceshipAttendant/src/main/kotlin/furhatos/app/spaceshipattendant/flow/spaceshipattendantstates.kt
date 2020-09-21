@@ -210,6 +210,11 @@ val SpecificWishes : State = state {
         furhat.ask("Amazing. The data has been entered to your name, ${users.current.checkinData.name}. Now," +
                 "before asking you about the different activities we offer on board, I would like to ask you if you" +
                 "have any specific wishes for your stay here?")
+        if (users.current.checkinData.type?.value === "citizen") {
+            citizenRooms = citizenRooms - users.current.checkinData.guestNumber.value!!
+        } else if (users.current.checkinData.type?.value === "suite") {
+            suiteRooms = suiteRooms - ((users.current.checkinData.guestNumber.value!! + users.current.checkinData.guestNumber.value!! % 2) / 2)
+        }
     }
 
     onReentry {
