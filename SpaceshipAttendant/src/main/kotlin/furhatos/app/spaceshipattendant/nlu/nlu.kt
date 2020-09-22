@@ -7,19 +7,19 @@ import furhatos.util.Language
 class Guests : Number()
 class Duration : Number()
 
-class CheckIn : Intent() {
-    override fun getExamples(lang: Language): List<String> {
-        return listOf("I would like to check in",
-                "I want to check in", "Check-in, please",
-                "Yes, I would like to check in", "Check in", "Check")
-    }
-}
+class CheckIn : Intent() //{
+//    override fun getExamples(lang: Language): List<String> {
+//        return listOf("I would like to check in",
+//                "I want to check in", "Check-in, please",
+//                "Yes, I would like to check in", "Check in", "Check")
+//    }
+//}
 
-class Suite : EnumEntity() {
-    override fun getEnum(lang: Language): List<String> {
-        return listOf("suite", "citizen")
-    }
-}
+class Suite : EnumEntity() //{
+//    override fun getEnum(lang: Language): List<String> {
+//        return listOf("suite", "citizen")
+//    }
+//}
 
 class Help : Intent() {
     override fun getExamples(lang: Language): List<String> {
