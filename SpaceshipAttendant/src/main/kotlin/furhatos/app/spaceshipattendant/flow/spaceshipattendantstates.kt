@@ -17,10 +17,14 @@ const val randomGazeStd = 1.1903747402228744
 const val userGazeMean = 8.095884210526314
 const val userGazeStd = 14.26086952089024
 
+val gazeInterval = 100..8000
+
 val InitialState = state(Interaction) {
 
-    onTime(repeat=1000..10000, instant = true) {
-        furhat.glance(randomLocation(), duration=sampleGaussian(randomGazeMean, randomGazeStd))
+    onTime(repeat=gazeInterval, instant = true) {
+        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
+        println("Random gaze for $duration milliseconds")
+        furhat.glance(randomLocation(), duration=duration)
     }
 
     onEntry {
@@ -43,6 +47,13 @@ val InitialState = state(Interaction) {
 }
 
 val RobotIntro : State = state {
+
+    onTime(repeat=gazeInterval) {
+        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
+        println("Random gaze for $duration milliseconds")
+        furhat.glance(randomLocation(), duration=duration)
+    }
+
     onEntry {
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
                 "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today?")
@@ -63,6 +74,13 @@ val RobotIntro : State = state {
 }
 
 val CheckinIntro = state {
+
+    onTime(repeat=gazeInterval) {
+        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
+        println("Random gaze for $duration milliseconds")
+        furhat.glance(randomLocation(), duration=duration)
+    }
+
     onEntry {
         furhat.say("Great! As the travel is longer than two days on our journey to Vulkan, regulation requires\n" +
                 "we ask a few questions.")
