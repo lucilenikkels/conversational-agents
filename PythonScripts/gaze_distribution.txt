@@ -1,0 +1,4683 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+0
+900
+<exists>
+4
+"IntervalTier"
+"spreker1 [v] (TIE0)"
+0
+900
+519
+0
+0.84
+""
+0.84
+1.806
+"beginnen we weer opnieuw?"
+1.806
+3.216
+""
+3.216
+3.916
+"met het verhaal?"
+3.916
+10.569
+""
+10.569
+11.699
+"'k kan dat goed inschatten."
+11.699
+12.349
+""
+12.349
+14.986
+"en vanochtend kwam ik dus ook weer aangesnord."
+14.986
+15.632
+""
+15.632
+18.515
+"en ik was op de hoogte van de "
+18.515
+19.813
+"Keizersgracht."
+19.813
+20.126
+""
+20.126
+21.21
+"xxx brug brug."
+21.21
+21.894
+"ggg."
+21.894
+22.24
+""
+22.24
+24.411
+"en ik zie dat d'r niets staat."
+24.411
+24.632
+""
+24.632
+26.008
+"d'r staat geen auto..."
+26.008
+26.814
+""
+26.814
+27.686
+"zelfs niet één."
+27.686
+28.056
+""
+28.056
+29.208
+"en ook geen fietser."
+29.208
+31.146
+""
+31.146
+32.704
+"niets d'r staat helemaal niets."
+32.704
+33.129
+""
+33.129
+35.613
+"dus dan is het mijn gewoonte om gewoon door te rijden."
+35.613
+37.081
+""
+37.081
+38.561
+"nou daar was ik mee bezig."
+38.561
+39.087
+""
+39.087
+40.608
+"ik ben dus op de brug."
+40.608
+42.174
+"echt op 't hoogste punt."
+42.174
+42.415
+""
+42.415
+45.044
+"en d'r snort mij iemand anders voorbij."
+45.044
+46.118
+"en dat is 'n agent"
+46.118
+46.577
+""
+46.577
+48.635
+"op 'n uh op 'n brommobiel*n."
+48.635
+49.135
+""
+49.135
+51.607
+"dus beetje geavanceerder dan ik."
+51.607
+52.536
+"en veel harder."
+52.536
+55.422
+"zonder helm hè die kun je kun je die gewoon uh gebruiken."
+55.422
+56.667
+""
+56.667
+57.785
+"en die gaat mij voorbij."
+57.785
+58.177
+"en die s*a"
+58.177
+58.468
+""
+58.468
+58.747
+"die"
+58.747
+59.184
+""
+59.184
+60.582
+"die stopt dus voor mij."
+60.582
+61.678
+""
+61.678
+63.904
+"dus als ik door bleef rijden dan knal ik op 'm."
+63.904
+66.556
+"dus ik maak 'n schuiver voorbij hem."
+66.556
+67.439
+"en ik kom dus..."
+67.439
+67.719
+""
+67.719
+68.67
+"ik passeer 'm."
+68.67
+70.015
+""
+70.015
+70.44
+"en"
+70.44
+71.212
+""
+71.212
+71.872
+"ik draai..."
+71.872
+73.982
+"ik denk ja dit hier dit gaat helemaal verkeerd."
+73.982
+76.572
+"ik krijg 'n hele vette bon en 'n en 'n berisping."
+76.572
+77.691
+"en helemaal verschrikkelijk."
+77.691
+78.103
+""
+78.103
+80.419
+"dus ik draai maar zo om en ik zeg o jee."
+80.419
+80.813
+""
+80.813
+81.182
+"uh."
+81.182
+81.428
+""
+81.428
+83.89
+"ja zegt ie 't is uh 't was wel rood."
+83.89
+84.479
+""
+84.479
+85.318
+"'k zeg ja soms."
+85.318
+87.097
+"en toen had 'k 't zinnetje in m'n hoofd."
+87.097
+87.567
+""
+87.567
+88.462
+"uh."
+88.462
+88.597
+""
+88.597
+90.667
+"soms rijd ik gewoon door omdat..."
+90.667
+91.092
+"nou."
+91.092
+92.3
+"toen dacht ik o nee da's niet handig."
+92.3
+93.546
+"dus dan heb ik niks meer gezegd."
+93.546
+94.005
+""
+94.005
+96.433
+"ik uh ik ik stelde me heel timide op."
+96.433
+97.216
+""
+97.216
+99.366
+"en ik kon even later toen 't rood wo*x"
+99.366
+99.926
+""
+99.926
+100.34
+"ja."
+100.34
+100.731
+""
+100.731
+102.521
+"deed 'n beetje onbeholpen en zo."
+102.521
+102.745
+"en"
+102.745
+103.181
+""
+103.181
+104.96
+"zo had ik me weer d'r uit gered."
+104.96
+110.144
+""
+110.144
+111.519
+"nee nee."
+111.519
+111.732
+""
+111.732
+112.784
+"'k ben niet agressief."
+112.784
+113.824
+""
+113.824
+115.502
+"zeker niet tegen 'n politieagent."
+115.502
+116.218
+"kijk wel uit."
+116.218
+117.696
+""
+117.696
+118.501
+"hij was jong."
+118.501
+120.793
+"en uh misschien had ie wel heel goeie zin vandaag."
+120.793
+122.103
+"omdat 't mooi weer was."
+122.103
+122.45
+""
+122.45
+123.983
+"dat zou dat zou best kunnen."
+123.983
+125.015
+""
+125.015
+126.178
+"nou ze zijn flitsend."
+126.178
+128.371
+"ze hebben dezelfde kleur als 'n politieautootje*n."
+128.371
+129.243
+"dus ook uh"
+129.243
+130.015
+""
+130.015
+130.541
+"uh"
+130.541
+132.078
+"nou diezelfde kleuren wit."
+132.078
+132.302
+""
+132.302
+133.644
+"'t is heel duidelijk herkenbaar "
+133.644
+135.468
+"dat dat 'n uh politie uh..."
+135.468
+136.396
+""
+136.396
+137.034
+"scootertjes*n."
+137.034
+137.336
+""
+137.336
+137.616
+"ja."
+137.616
+138.868
+""
+138.868
+139.304
+"ja."
+139.304
+140.557
+""
+140.557
+141.956
+"ja zijn d'r heel snel."
+141.956
+143.03
+""
+143.03
+143.522
+"ja."
+143.522
+143.79
+""
+143.79
+146.063
+"want ik heb nog 'n keer 'n overtreding gemaakt."
+146.063
+146.611
+""
+146.611
+147.909
+"en uh op m'n fiets."
+147.909
+148.546
+""
+148.546
+149.32
+"op m'n bromfiets."
+149.32
+151.17
+"gister toen moest 'k ook snel ergens heen."
+151.17
+152.009
+""
+152.009
+152.367
+"en toen wa*a..."
+152.367
+152.68
+""
+152.68
+153.866
+"ggg."
+153.866
+154.079
+""
+154.079
+154.56
+"ggg."
+154.56
+155.175
+"en toen had 'k"
+155.175
+155.672
+""
+155.672
+157.327
+"twee agenten op 'n uh"
+157.327
+158.211
+""
+158.211
+158.927
+"op 'n fiets."
+158.927
+160.258
+"en die konden mij niet inhalen."
+160.258
+163.109
+""
+163.109
+163.635
+"dus..."
+163.635
+164.888
+""
+164.888
+166.359
+"nee hoor d'r is niks aan de hand."
+166.359
+167.131
+""
+167.131
+167.836
+"niks aan de hand."
+167.836
+168.275
+""
+168.275
+170.524
+"als ik als ik uh als ik uh"
+170.524
+170.949
+""
+170.949
+172.919
+"ik houd me ook aan de regels als 't"
+172.919
+173.378
+""
+173.378
+176.242
+"echt uh als ik ook zelf de zin ervan inzie."
+176.242
+176.702
+""
+176.702
+179.577
+"als ik door 't Vondelpark rijd dan ga ik echt niet brommeren*u."
+179.577
+180.226
+""
+180.226
+181.691
+"dan staat 't motortje uit."
+181.691
+182.15
+""
+182.15
+183.28
+"want mensen zijn daar om"
+183.28
+183.682
+""
+183.682
+184.826
+"te relaxen en"
+184.826
+185.33
+""
+185.33
+187.586
+"niet gestoord te worden door zo'n uh"
+187.586
+188.454
+"ook al is 't een"
+188.454
+188.912
+""
+188.912
+190.624
+"ja 't 't is 'n pruttelding*n hoor."
+190.624
+191.608
+"'t is echt niet zo'n..."
+191.608
+192.783
+"als ie heel hard gaat..."
+192.783
+193.246
+""
+193.246
+195.193
+"als ik de Kluft afga dan dan dan"
+195.193
+195.707
+""
+195.707
+197.504
+"dan knettert 't motortje 'n beetje."
+197.504
+199.763
+"en dat moet je toch horen als ik voorbij uh schiet."
+199.763
+201.083
+""
+201.083
+203.347
+"maar goed ik kan 't je aanbevelen als je zo oud bent als ik."
+203.347
+206.192
+"om dan uh als je genoeg hebt van de weer en wind uh..."
+206.192
+214.07
+""
+214.07
+215.156
+"waar in welk land?"
+215.156
+233.504
+""
+233.504
+234.153
+"hè?"
+234.153
+235.618
+"wat raar wat raar."
+235.618
+236.871
+""
+236.871
+237.666
+"wat achterlijk."
+237.666
+262.435
+""
+262.435
+263.924
+"maar die Elbe is inmiddels zo gezakt"
+263.924
+265.42
+"dat je d'r wel weer langs kunt fietsen?"
+265.42
+266.852
+"ggg."
+266.852
+278.897
+""
+278.897
+279.21
+"ja."
+279.21
+279.702
+""
+279.702
+280.049
+"ja."
+280.049
+307.5
+""
+307.5
+308.786
+"nee 'k zou maar 's goed kijken."
+308.786
+308.976
+""
+308.976
+311.516
+"do-door*u welk door welk gebied die uh..."
+311.516
+322.946
+""
+322.946
+325.609
+"'k had 'n vriendje die woonde aan de Elbe in Hamburg."
+325.609
+327.979
+""
+327.979
+329.142
+"was 'n mooi gebied."
+329.142
+329.399
+"ja."
+329.399
+329.69
+""
+329.69
+330.305
+"heel leuk."
+330.305
+341.159
+""
+341.159
+342.58
+"hij uh hij kan"
+342.58
+345.13
+"hij kan op sommige plekken behoorlijk kronkelen."
+345.13
+346.322
+""
+346.322
+347.251
+"dus dat is leuk."
+347.251
+347.419
+""
+347.419
+347.911
+"dat is leuk."
+347.911
+350.629
+"want 'k bedoel anders dan kun je net zo goed langs 't kanaal rijden."
+350.629
+351.289
+"als ie uh..."
+351.289
+361.736
+""
+361.736
+362.44
+"dat is waar."
+362.44
+363.842
+"d'r treedt altijd 'n soort"
+363.842
+364.77
+""
+364.77
+365.598
+"uh"
+365.598
+366.482
+""
+366.482
+368.238
+"gewenning gewenning aan."
+368.238
+369.737
+""
+369.737
+370.64
+"dan moet je vliegen."
+370.64
+371.233
+""
+371.233
+371.837
+"dan ben je..."
+371.837
+373.19
+"ik wil naar Polinesië."
+373.19
+375.103
+""
+375.103
+376.787
+"'k weet niet eens waar 't ligt jawel hoor."
+376.787
+378.51
+"in de Stille Zuidzee volgens mij."
+378.51
+379.562
+""
+379.562
+380.68
+"maar uh ik zag"
+380.68
+381.396
+""
+381.396
+382.907
+"uh ik zag 'n plaatje"
+382.907
+383.239
+""
+383.239
+385.644
+"in 'n tijdschrift over reizen."
+385.644
+386.494
+""
+386.494
+387.8
+"van 'n eiland."
+387.8
+387.967
+""
+387.967
+388.482
+"uh."
+388.482
+390.507
+"en de dame die daar was geweest "
+390.507
+391.189
+""
+391.189
+393.156
+"die die f*a uh"
+393.156
+394.487
+"had 't daar zo heerlijk gevonden "
+394.487
+396.456
+"die wilde daar nooit meer weg."
+396.456
+397.276
+""
+397.276
+400.453
+"en 't eilandje daar is ligt Gauguin begraven."
+400.453
+401.516
+""
+401.516
+402.836
+"en uh en Jacques Brel."
+402.836
+403.866
+""
+403.866
+404.235
+"nou."
+404.235
+404.414
+""
+404.414
+406.092
+"dus 't zijn twee favorieten."
+406.092
+406.783
+""
+406.783
+407.711
+"wel*x op uh*x"
+407.711
+411.447
+""
+411.447
+413.189
+"nou de wereld*u de wereld uh..."
+413.189
+414.375
+""
+414.375
+416.567
+"de wereld uh ligt voor mij open straks."
+416.567
+417.541
+"na één juno*v."
+417.541
+418.447
+""
+418.447
+419.957
+"da's nog één maandje ongeveer."
+419.957
+421.203
+""
+421.203
+421.528
+"ja."
+421.528
+421.874
+""
+421.874
+422.948
+"maar da's zo uhm..."
+422.948
+423.485
+""
+423.485
+424.503
+"ik ben nog nooit zover..."
+424.503
+426.987
+"jawel ik ben 'n keer naar Singapore gevlogen."
+426.987
+427.405
+""
+427.405
+428.043
+"en dan"
+428.043
+428.379
+""
+428.379
+430.213
+"Maleisië en Thailand"
+430.213
+431.757
+"doorgereden met 'n groep."
+431.757
+433.077
+""
+433.077
+434.318
+"maar daar hoef 'k niet meer heen."
+434.318
+434.934
+"dat is klaar."
+434.934
+435.829
+"dat heb ik gezien."
+435.829
+436.78
+"'t is uh..."
+436.78
+437.238
+""
+437.238
+438.827
+"ik was met 'n groep omdat ik"
+438.827
+439.453
+"uh"
+439.453
+439.777
+""
+439.777
+441.086
+"voor 't eerst in zo'n"
+441.086
+441.379
+""
+441.379
+442.33
+"voor mij totaal"
+442.33
+442.788
+""
+442.788
+444.13
+"vreemd werelddeel"
+444.13
+445.999
+"dat wilde ik absoluut niet alleen doen."
+445.999
+447.165
+""
+447.165
+449.973
+"en 't is wel leuk hoor want je treft altijd..."
+449.973
+452.11
+"'t waren maar elf mensen 'n klein groepje."
+452.11
+452.608
+""
+452.608
+454.163
+"en d'r waren wel aardige mensen bij."
+454.163
+456.176
+"en overdag wil ik graag alleen zijn."
+456.176
+458.996
+"tenzij d'r van A naar B getrokken moet worden."
+458.996
+460.264
+""
+460.264
+461.126
+"uh."
+461.126
+462.7
+""
+462.7
+463.534
+"ik had me ook..."
+463.534
+465.138
+"'k heb 'n ik heb 'n vriendin"
+465.138
+467.398
+"die neemt d'r fiets dus overal mee naartoe."
+467.398
+467.665
+""
+467.665
+469.085
+"ik heb daar ook gedacht van "
+469.085
+469.343
+""
+469.343
+471.692
+"wat zou 't nu leuk zijn als 'k m'n fiets bij me had."
+471.692
+472.922
+"over fietsen gesproken."
+472.922
+484.914
+""
+484.914
+486.48
+"die kunnen zomaar uit de boom vallen."
+486.48
+486.778
+""
+486.778
+489.653
+"ggg."
+489.653
+513.672
+""
+513.672
+515.856
+"ge-goed*u nou ja je moet vreselijk opletten."
+515.856
+517.002
+""
+517.002
+517.245
+"ja."
+517.245
+530.28
+""
+530.28
+530.633
+"nee."
+530.633
+532.354
+""
+532.354
+534.566
+"ja je moet op zo'n Maleisisch eiland."
+534.566
+536.65
+"dat is zo'n soort Bounty ei-uh-eiland*u."
+536.65
+537.109
+"waar we"
+537.109
+537.561
+""
+537.561
+539.789
+"'n stop hadden van direct na Singapore."
+539.789
+542.414
+"'n paar dagen Singapore en toen gingen we naar dat eiland."
+542.414
+543.698
+""
+543.698
+544.887
+"uhm."
+544.887
+545.57
+"dan ko*a je dan"
+545.57
+546.432
+"in een resort*v."
+546.432
+547.645
+"dus d'r is maar één resort*v."
+547.645
+549.299
+"en dan gingen we ook altijd samen eten."
+549.299
+549.707
+"en"
+549.707
+550.06
+""
+550.06
+553.095
+"dan dan moest je 's ochtends vertellen welke vis je wilde hebben."
+553.095
+553.326
+"en"
+553.326
+553.746
+""
+553.746
+556.591
+"'k verdenk ze d'r nog van dat ze die nog gingen vangen ook."
+556.591
+557.01
+""
+557.01
+557.286
+"maar"
+557.286
+557.507
+""
+557.507
+558.72
+"het was wel fantastisch."
+558.72
+559.658
+""
+559.658
+562.241
+"maar om die om die groep 'n beetje te ontlopen."
+562.241
+562.925
+"ging je dus"
+562.925
+563.245
+""
+563.245
+564.778
+"ik tenminste in me eentje"
+564.778
+565.374
+""
+565.374
+566.223
+"uhm"
+566.223
+568.076
+"naar de andere kant van 't eiland lopen."
+568.076
+568.627
+"dat kon."
+568.627
+569.437
+""
+569.437
+570.684
+"'t was niet zo vreselijk ver."
+570.684
+570.904
+""
+570.904
+571.786
+"'t was dus echt 'n stipje."
+571.786
+572.448
+""
+572.448
+573.059
+"uhm."
+573.059
+574.912
+"en dan was daar dat Bounty strand."
+574.912
+577.703
+"da's echt schitterend om te zien met de palmbomen"
+577.703
+578.067
+"en die"
+578.067
+578.894
+""
+578.894
+580.24
+"azuurblauwe zee."
+580.24
+580.692
+""
+580.692
+582.419
+"maar ik zag in 't zandpad"
+582.419
+583.665
+"al die slangensporen*n."
+583.665
+584.73
+""
+584.73
+584.962
+"nee xxx."
+584.962
+585.16
+""
+585.16
+587.752
+"komen ze daar echt niet overdag als de zon schijnt."
+587.752
+588.346
+"en als..."
+588.346
+588.921
+""
+588.921
+590.134
+"maar uhm"
+590.134
+592.616
+"dus de de 't bewijs uh was 'r"
+592.616
+593.664
+"dat uh dat je daar"
+593.664
+594.451
+""
+594.451
+595.422
+"nou ja gewoon."
+595.422
+596.018
+"uh."
+596.018
+596.437
+"je moe*a uh."
+596.437
+597.804
+"je moet echt uitkijken ja."
+597.804
+615.396
+""
+615.396
+618.286
+"nee maar dat kan niet eens want 't stikte daar van de zandvlooien."
+618.286
+619.929
+"ggg."
+619.929
+623.126
+""
+623.126
+625.012
+"onder 'n palmboom kun je fijn uh..."
+625.012
+625.828
+"dus niet in de zon."
+625.828
+625.986
+""
+625.986
+626.67
+"want 't is daar e*a..."
+626.67
+628.986
+"die zon die bran*a die brand je helemaal uh..."
+628.986
+629.513
+""
+629.513
+631.234
+"dus ik ben ook niet echt in de zon geweest"
+631.234
+632.955
+"maar onder 'n onder 'n palmboom."
+632.955
+633.275
+"uh."
+633.275
+634.201
+""
+634.201
+634.793
+"en uh."
+634.793
+636.525
+"maar daar had ik ook last van de zandvlooien."
+636.525
+639.073
+"dus ze probeerden ze wel weg te spuiten."
+639.073
+639.702
+""
+639.702
+641.825
+"want 't is natuurlijk toch niet fijn voor toeristen."
+641.825
+642.344
+""
+642.344
+643.326
+"'n strand met uh..."
+643.326
+643.667
+""
+643.667
+644.616
+"en uh."
+644.616
+645.756
+""
+645.756
+648.04
+"als je dan denkt nou 't is 'n beetje erg warm."
+648.04
+649.032
+"ik ga afkoelen."
+649.032
+649.584
+""
+649.584
+650.367
+"dan zij*a is 'r"
+650.367
+650.698
+""
+650.698
+652.297
+"in althans op dat plekje."
+652.297
+653.756
+"dat paradijselijke plekje"
+653.756
+655.893
+"wat zo ogenschijn*a zo paradijselijk was."
+655.893
+656.17
+""
+656.17
+657.375
+"ik kom in dat water."
+657.375
+657.728
+""
+657.728
+660
+"en dan zijn 'r hele kleine bloedzuigertjes*n."
+660
+662.184
+""
+662.184
+663.354
+"nou die krijg je op je huid."
+663.354
+664.899
+"nou dan spring je d'r ogenblikkelijk uit."
+664.899
+665.472
+"je huilt."
+665.472
+665.902
+""
+665.902
+667.049
+"je denkt waar is de douche?"
+667.049
+669.028
+"want uh di-dit*u moet allemaal weg."
+669.028
+672.361
+""
+672.361
+673.761
+"dus d'r is altijd wel weer wat."
+673.761
+699.308
+""
+699.308
+700.411
+"of de Seychellen."
+700.411
+701.549
+""
+701.549
+702.438
+"nou toch zou ik"
+702.438
+704.787
+"ik echt hoor dat meen ik als ik ergens ben"
+704.787
+705.337
+""
+705.337
+706.042
+"uh"
+706.042
+708.877
+"zo'n zo'n warm land dan vind ik 't even heel prettig."
+708.877
+709.655
+""
+709.655
+711.332
+"maar ik zou d'r nooit willen wonen."
+711.332
+716.708
+""
+716.708
+718.274
+"je kunt 't natuurlijk altijd doen ja."
+718.274
+719.719
+"je niet permanent vestigen."
+719.719
+719.963
+""
+719.963
+720.757
+"ik was uh"
+720.757
+721.739
+""
+721.739
+722.312
+"uh"
+722.312
+724.176
+"in in Gaasterland onlangs."
+724.176
+724.915
+""
+724.915
+727.639
+"nou schitterend mooi maar 'k zou d'r voor geen goud willen wonen."
+727.639
+728.975
+""
+728.975
+729.516
+"Friesland."
+729.516
+731.093
+""
+731.093
+733.729
+"bos bos weilanden dijk."
+733.729
+734.879
+""
+734.879
+735.651
+"uh."
+735.651
+736.468
+"'n mooi landschap."
+736.468
+737.427
+"echt mooi landschap."
+737.427
+737.769
+"en"
+737.769
+738.133
+""
+738.133
+739.523
+"uh heel weinig mensen."
+739.523
+739.677
+""
+739.677
+740.791
+"weinig dorpjes."
+740.791
+741.409
+""
+741.409
+742.939
+"dus 't is daar uitgestrekt."
+742.939
+744.194
+"je kunt heel ver kijken."
+744.194
+744.779
+""
+744.779
+745.54
+"maar je zal daar..."
+745.54
+747.415
+"we reden wel door dorpjes op de fiets dus."
+747.415
+748.761
+""
+748.761
+749.159
+"maar"
+749.159
+749.302
+""
+749.302
+749.887
+"uh"
+749.887
+751.442
+"dan dan had ik me van"
+751.442
+753.065
+"van die van die ideeën."
+753.065
+755.036
+"nou o je zal daar wonen met"
+755.036
+755.455
+""
+755.455
+756.492
+"je man je vr*a..."
+756.492
+759.114
+"zag je zo'n vrouw achter 'n kinderwagen in dat dorp."
+759.114
+760.548
+"naar de bakker of zo."
+760.548
+760.893
+""
+760.893
+762.304
+"dat is toch vreselijk."
+762.304
+762.509
+""
+762.509
+764.042
+"ik moest 'r echt niet aan denken."
+764.042
+805.865
+""
+805.865
+806.56
+"naar de bieb."
+806.56
+816.923
+""
+816.923
+817.265
+"ja."
+817.265
+831.091
+""
+831.091
+834.508
+"ggg."
+834.508
+841.871
+""
+841.871
+842.334
+"ja."
+842.334
+842.588
+""
+842.588
+843.89
+"kiezen d'r voor die uh..."
+843.89
+844.455
+""
+844.455
+847.389
+"nou 'k heb wel gedacht als 'k als 'k vroeger dus uh..."
+847.389
+847.929
+""
+847.929
+849.227
+"hum 'n jaar of tien geleden."
+849.227
+851.367
+"met m'n vriendin m'n vakantie vriendin."
+851.367
+852.073
+""
+852.073
+853.187
+"vakantie en theater."
+853.187
+854.069
+""
+854.069
+856.474
+"maar met haar ga ik altijd naar Formentera."
+856.474
+857.334
+""
+857.334
+858.861
+"en dus nou."
+858.861
+861.133
+"als we nou als we nou klaar zijn met werken"
+861.133
+861.574
+"dan gaan we "
+861.574
+864.398
+"ja dan gaan wij uh gaan we hier 'n huisje kopen."
+864.398
+864.991
+""
+864.991
+866.094
+"maar nu is 't bijna zover."
+866.094
+868.808
+"zij g*a zij is in september met uh pensioen."
+868.808
+869.591
+""
+869.591
+871.67
+"is ze echt echt vijfenzestig geworden hè?"
+871.67
+872.718
+""
+872.718
+874.086
+"uhm."
+874.086
+874.979
+""
+874.979
+877.232
+"maar uh geen haar op ons hoofd."
+877.232
+878.457
+""
+878.457
+878.931
+"want..."
+878.931
+880.938
+"nee want 't betekent toch weer als je 'n"
+880.938
+881.148
+""
+881.148
+882.67
+"'n huisje daar op dat eiland hebt"
+882.67
+884.838
+"waar je dus altijd zou kunnen zijn."
+884.838
+885.559
+""
+885.559
+886.982
+"maar je wil d'r niet altijd zijn."
+886.982
+888.317
+""
+888.317
+889.64
+"want want uhm"
+889.64
+890.346
+""
+890.346
+893.115
+"'t leven in Amsterdam is ook ontzettend leuk."
+893.115
+896.089
+""
+896.089
+897.324
+"ik ben 'n stadsmens."
+897.324
+897.776
+""
+897.776
+897.975
+"ja."
+"IntervalTier"
+"kijkrichting spreker1 [v] (TIE1)"
+0
+900
+235
+0
+4.72
+"x"
+4.72
+11.85
+"g"
+11.85
+11.86
+""
+11.86
+12.32
+"x"
+12.32
+16.07
+"g"
+16.07
+16.78
+"x"
+16.78
+21.2
+"g"
+21.2
+22.94
+"x"
+22.94
+27.84
+"g"
+27.84
+27.85
+""
+27.85
+28.25
+"x"
+28.25
+30.74
+"g"
+30.74
+31.29
+"x"
+31.29
+36.48
+"g"
+36.48
+37.19
+"x"
+37.19
+37.2
+""
+37.2
+42.41
+"g"
+42.41
+43.47
+"x"
+43.47
+54.99
+"g"
+54.99
+55
+""
+55
+57.51
+"x"
+57.51
+57.87
+"g"
+57.87
+59.48
+"x"
+59.48
+62.17
+"g"
+62.17
+62.67
+"x"
+62.67
+63.77
+"g"
+63.77
+65.55
+"x"
+65.55
+66.31
+"g"
+66.31
+66.85
+"x"
+66.85
+70.1
+"g"
+70.1
+71.06
+"x"
+71.06
+72.29
+"g"
+72.29
+72.66
+"x"
+72.66
+77.29
+"g"
+77.29
+79.48
+"x"
+79.48
+80.3
+"g"
+80.3
+81.24
+"x"
+81.24
+84.31
+"g"
+84.31
+84.32
+""
+84.32
+85.36
+"x"
+85.36
+85.37
+""
+85.37
+89.84
+"g"
+89.84
+90.14
+"x"
+90.14
+117.42
+"g"
+117.42
+119.12
+"x"
+119.12
+124.62
+"g"
+124.62
+125
+"x"
+125
+143.09
+"g"
+143.09
+144.36
+"x"
+144.36
+158.07
+"g"
+158.07
+158.29
+"x"
+158.29
+158.3
+""
+158.3
+169.5
+"g"
+169.5
+174.36
+"x"
+174.36
+187.82
+"g"
+187.82
+189.71
+"x"
+189.71
+193.33
+"g"
+193.33
+193.69
+"x"
+193.69
+197.49
+"g"
+197.49
+198.62
+"x"
+198.62
+279.19
+"g"
+279.19
+279.72
+"x"
+279.72
+311.55
+"g"
+311.55
+312
+"x"
+312
+328.34
+"g"
+328.34
+328.87
+"x"
+328.87
+342.81
+"g"
+342.81
+343.12
+"x"
+343.12
+343.13
+""
+343.13
+348.36
+"g"
+348.36
+348.37
+""
+348.37
+348.77
+"x"
+348.77
+376.93
+"g"
+376.93
+377.37
+"x"
+377.37
+377.38
+""
+377.38
+379.42
+"g"
+379.42
+381.79
+"x"
+381.79
+388.48
+"g"
+388.48
+389.52
+"x"
+389.52
+397.43
+"g"
+397.43
+398.02
+"x"
+398.02
+398.03
+""
+398.03
+404.04
+"g"
+404.04
+404.99
+"x"
+404.99
+420.48
+"g"
+420.48
+420.49
+""
+420.49
+423.75
+"x"
+423.75
+424.54
+"g"
+424.54
+425.76
+"x"
+425.76
+431.55
+"g"
+431.55
+433.28
+"x"
+433.28
+436.76
+"g"
+436.76
+437.71
+"x"
+437.71
+446.54
+"g"
+446.54
+448
+"x"
+448
+448.01
+""
+448.01
+449.82
+"g"
+449.82
+450.48
+"x"
+450.48
+450.49
+""
+450.49
+451.95
+"g"
+451.95
+452.9
+"x"
+452.9
+452.91
+""
+452.91
+454.83
+"g"
+454.83
+455.27
+"x"
+455.27
+459.08
+"g"
+459.08
+464.75
+"x"
+464.75
+467.68
+"g"
+467.68
+468.28
+"x"
+468.28
+532.27
+"g"
+532.27
+534.83
+"x"
+534.83
+538.39
+"g"
+538.39
+539.13
+"x"
+539.13
+540.8
+"g"
+540.8
+541.44
+"x"
+541.44
+542.06
+"g"
+542.06
+545.2
+"x"
+545.2
+548.05
+"g"
+548.05
+548.06
+""
+548.06
+548.48
+"x"
+548.48
+549.62
+"g"
+549.62
+549.63
+""
+549.63
+550.84
+"x"
+550.84
+552.95
+"g"
+552.95
+552.96
+""
+552.96
+553.64
+"x"
+553.64
+553.65
+""
+553.65
+554.82
+"g"
+554.82
+554.83
+""
+554.83
+555.15
+"x"
+555.15
+558.54
+"g"
+558.54
+558.55
+""
+558.55
+560.8
+"x"
+560.8
+565.87
+"g"
+565.87
+565.88
+""
+565.88
+566.42
+"x"
+566.42
+566.43
+""
+566.43
+570.87
+"g"
+570.87
+571.42
+"x"
+571.42
+571.86
+"g"
+571.86
+571.87
+""
+571.87
+573.2
+"x"
+573.2
+573.21
+""
+573.21
+577.27
+"g"
+577.27
+577.94
+"x"
+577.94
+577.95
+""
+577.95
+579.8
+"g"
+579.8
+579.81
+""
+579.81
+581.85
+"x"
+581.85
+587.21
+"g"
+587.21
+587.22
+""
+587.22
+587.89
+"x"
+587.89
+588.82
+"g"
+588.82
+588.83
+""
+588.83
+591.31
+"x"
+591.31
+626.11
+"g"
+626.11
+627.13
+"x"
+627.13
+627.14
+""
+627.14
+630.74
+"g"
+630.74
+632.01
+"x"
+632.01
+633.11
+"g"
+633.11
+635.4
+"x"
+635.4
+643.36
+"g"
+643.36
+643.37
+""
+643.37
+643.75
+"x"
+643.75
+644.22
+"g"
+644.22
+645.62
+"x"
+645.62
+645.63
+""
+645.63
+648.88
+"g"
+648.88
+650.2
+"x"
+650.2
+651.78
+"g"
+651.78
+652.38
+"x"
+652.38
+652.39
+""
+652.39
+653.13
+"g"
+653.13
+656.34
+"x"
+656.34
+656.35
+""
+656.35
+658.17
+"g"
+658.17
+658.82
+"x"
+658.82
+658.83
+""
+658.83
+662.2
+"g"
+662.2
+662.21
+""
+662.21
+663.62
+"x"
+663.62
+664.48
+"g"
+664.48
+664.49
+""
+664.49
+665.22
+"x"
+665.22
+666.93
+"g"
+666.93
+667.54
+"x"
+667.54
+701.95
+"g"
+701.95
+702.7
+"x"
+702.7
+705.17
+"g"
+705.17
+706.6
+"x"
+706.6
+706.61
+""
+706.61
+719.86
+"g"
+719.86
+723.02
+"x"
+723.02
+723.03
+""
+723.03
+734.63
+"g"
+734.63
+735.86
+"x"
+735.86
+741.73
+"g"
+741.73
+742.43
+"x"
+742.43
+742.44
+""
+742.44
+742.73
+"g"
+742.73
+743.42
+"x"
+743.42
+748.29
+"g"
+748.29
+754.69
+"x"
+754.69
+756.56
+"g"
+756.56
+756.57
+""
+756.57
+757.16
+"x"
+757.16
+757.17
+""
+757.17
+758.19
+"g"
+758.19
+759.68
+"x"
+759.68
+842.73
+"g"
+842.73
+846.4
+"x"
+846.4
+847.54
+"g"
+847.54
+847.55
+""
+847.55
+849.16
+"x"
+849.16
+853.23
+"g"
+853.23
+855.02
+"x"
+855.02
+857.37
+"g"
+857.37
+858.5
+"x"
+858.5
+859.85
+"g"
+859.85
+860.33
+"x"
+860.33
+861.55
+"g"
+861.55
+862.09
+"x"
+862.09
+863.58
+"g"
+863.58
+864.85
+"x"
+864.85
+865.99
+"g"
+865.99
+867.23
+"x"
+867.23
+867.24
+""
+867.24
+871.98
+"g"
+871.98
+876.06
+"x"
+876.06
+880.18
+"g"
+880.18
+882.5
+"x"
+882.5
+882.51
+""
+882.51
+889.14
+"g"
+889.14
+890.39
+"x"
+890.39
+899.959
+"g"
+"IntervalTier"
+"spreker2 [v] (TIE2)"
+0
+900
+580
+0.462
+0.862
+"oké."
+0.862
+1.273
+"xxx"
+1.273
+4.582
+""
+4.582
+5.16
+"ggg."
+5.16
+5.837
+""
+5.837
+6.414
+"nou goed."
+6.414
+6.714
+""
+6.714
+7.647
+"we rekken 't wel."
+7.647
+8.763
+"dus jij uh"
+8.763
+9.128
+""
+9.128
+10.491
+"kunt dat goed inschatten ja."
+10.491
+11.245
+""
+11.245
+11.677
+"ja."
+11.677
+14.687
+""
+14.687
+15.108
+"ja."
+15.108
+19.41
+""
+19.41
+19.869
+"ja."
+19.869
+25.729
+""
+25.729
+26.445
+"ja ja."
+26.445
+29.222
+""
+29.222
+30.867
+"uit die zij*a uit die zijgrachten*n?"
+30.867
+31.65
+""
+31.65
+32.097
+"ja."
+32.097
+35.672
+""
+35.672
+36.063
+"ja."
+36.063
+41.76
+""
+41.76
+42.197
+"ja."
+42.197
+48.749
+""
+48.749
+49.095
+"ja."
+49.095
+49.448
+""
+49.448
+50.31
+"o bestaan die ook?"
+50.31
+51.115
+""
+51.115
+51.697
+"ja ja ja."
+51.697
+54.668
+""
+54.668
+55.16
+"ja."
+55.16
+60.571
+""
+60.571
+60.907
+"ja."
+60.907
+62.864
+""
+62.864
+64.464
+"ja precies dan was je helemaal lekker uh..."
+64.464
+68.879
+""
+68.879
+69.338
+"ja."
+69.338
+69.791
+"ggg."
+69.791
+73.651
+""
+73.651
+74.568
+"ja ja ja ja ja."
+74.568
+83.867
+""
+83.867
+84.415
+"ja ja."
+84.415
+92.032
+""
+92.032
+92.971
+"nee nee nee nee."
+92.971
+98.144
+""
+98.144
+100.161
+"met je charmantste glimlach uh..."
+100.161
+104.602
+""
+104.602
+104.96
+"ja."
+104.96
+105.3
+""
+105.3
+107.638
+"ja ik denk nou wordt 't 'n heel spannend verhaal waarin jij uh"
+107.638
+108.22
+"ggg."
+108.22
+108.555
+""
+108.555
+110.49
+"op de vuist ging met 'n politieagent."
+110.49
+111.072
+"maar uh..."
+111.072
+112.694
+""
+112.694
+114.025
+"nee nou gelukkig maar."
+114.025
+116.454
+""
+116.454
+117.651
+"was 't 'n jonkie of uh..."
+117.651
+121.79
+""
+121.79
+122.159
+"ja."
+122.159
+122.45
+""
+122.45
+124.285
+"'k heb ze nog nooit gezien op van die uh"
+124.285
+125.239
+""
+125.239
+126.324
+"motordingetjes*n."
+126.324
+128.058
+""
+128.058
+128.516
+"ja."
+128.516
+132.056
+""
+132.056
+132.537
+"ja."
+132.537
+135.244
+""
+135.244
+136.508
+"soort scootertjes*n of zo?"
+136.508
+137.504
+""
+137.504
+138.13
+"o grappig."
+138.13
+138.891
+""
+138.891
+140.468
+"ja is wel handig voor in 'n stad tuurlijk."
+140.468
+140.714
+"die"
+140.714
+140.938
+""
+140.938
+142.638
+"dikke vette motoren die uh..."
+142.638
+142.974
+""
+142.974
+143.623
+"schiet niet op."
+143.623
+149.358
+""
+149.358
+149.66
+"ja."
+149.66
+150.521
+""
+150.521
+150.812
+"ja."
+150.812
+151.282
+""
+151.282
+151.528
+"ggg."
+151.528
+151.718
+""
+151.718
+153.877
+"je bent wel lekker asociaal bezig."
+153.877
+154.347
+""
+154.347
+155.421
+"ggg."
+155.421
+160.348
+""
+160.348
+160.739
+"ja."
+160.739
+162.292
+""
+162.292
+163.008
+"ja heel goed."
+163.008
+163.926
+""
+163.926
+164.675
+"nou ja goed."
+164.675
+165.525
+""
+165.525
+165.962
+"nee."
+165.962
+166.27
+""
+166.27
+166.952
+"'k wou zeggen."
+166.952
+167.165
+""
+167.165
+168.015
+"moet je wel mee oppassen."
+168.015
+168.264
+""
+168.264
+169.204
+"dit soort dingen vertellen."
+169.204
+170.401
+"ggg."
+170.401
+175.973
+""
+175.973
+176.343
+"ja."
+176.343
+179.677
+""
+179.677
+180.83
+"nee nee ja ja."
+180.83
+181.68
+""
+181.68
+181.982
+"ja."
+181.982
+186.64
+""
+186.64
+186.897
+"ja."
+186.897
+192.537
+""
+192.537
+194.723
+"nou ja ja je kan er wel flink mee uh..."
+194.723
+195.305
+"'k wou net zeggen."
+195.305
+196.916
+""
+196.916
+197.71
+"ja ja ja."
+197.71
+199.298
+""
+199.298
+199.701
+"ja."
+199.701
+203.18
+""
+203.18
+203.672
+"ggg."
+203.672
+204.287
+""
+204.287
+206.013
+"lekker uh..."
+206.013
+207.261
+"ja ja ja precies."
+207.261
+208.396
+"nou ik moet inderdaad zeggen"
+208.396
+210.566
+"als ik ergens 'n hekel aan heb is 't tegenwind."
+210.566
+211.26
+""
+211.26
+213.522
+"en we willen nu op fietsvakantie dus ik uh..."
+213.522
+215.446
+""
+215.446
+216.965
+"ja dat is nog niet helemaal duidelijk."
+216.965
+218.248
+"want we zouden eigenlijk al..."
+218.248
+220.261
+"hadden we min of meer besloten om naar Duitsland te gaan."
+220.261
+220.451
+""
+220.451
+222.364
+"en dan de Elbe af te fietsen."
+222.364
+223.441
+""
+223.441
+225.538
+"maar eigenlijk wil 'k ook heel graag 'n keer naar Scandinavië."
+225.538
+227.499
+"en hadden we 'n hele leuke combireis*n gevonden."
+227.499
+228.819
+"dus kanoën en fietsen."
+228.819
+229.087
+""
+229.087
+230.054
+"maar daar was weer gedoe"
+230.054
+232.24
+"want in Zweden kun je dus je fiets niet meenemen in de trein."
+232.24
+235.16
+"dus dat was om 'r te komen gewoon echt mijl op zeven."
+235.16
+235.428
+"ja."
+235.428
+237.285
+"heel raar maar 't zijn gewoon niet gewend."
+237.285
+237.798
+""
+237.798
+239.655
+"dus je kunt 'm wel me*a als vracht mee laten sturen."
+239.655
+242.172
+"maar dan moet je drie dagen wachten tot ie op de plek van bestemming is."
+242.172
+243.101
+"dat schiet gewoon niet op."
+243.101
+244.448
+""
+244.448
+247.131
+"en uh nu had ik die reisorganisatie gemaild"
+247.131
+249.144
+"en die zeiden nou tegen die tijd in september"
+249.144
+251.926
+"hebben we ook de mogelijkheid om jullie op te halen met de auto."
+251.926
+253.612
+"en dan kost 't ongeveer zo en zo veel."
+253.612
+256.308
+"maar toen werd de reis alles bij elkaar toch ineens wel heel prijzig."
+256.308
+258.303
+"en Zweden is natuurlijk ook nog eens behoorlijk duur."
+258.303
+259.079
+""
+259.079
+261.272
+"dus nu zitten we 'n beetje te twijfelen wat we gaan doen."
+261.272
+261.686
+""
+261.686
+262.849
+"dus uh."
+262.849
+264.973
+""
+264.973
+265.991
+"ja dat hoop ik dan dus."
+265.991
+267.758
+"ja weet jij veel wat er in de zomer nog gebeurt."
+267.758
+269.794
+"nou daar xxx zat ik wel aan te denken ja."
+269.794
+269.996
+""
+269.996
+270.464
+"maar da*a"
+270.464
+272.667
+"'n vriendin van mij die is naar Dresden verhuisd."
+272.667
+272.846
+""
+272.846
+274.401
+"en daar komt ie langs."
+274.401
+274.908
+""
+274.908
+276.496
+"xxx kan ook als beginpunt."
+276.496
+277.308
+"want hij loopt helemaal van"
+277.308
+277.476
+""
+277.476
+279.434
+"Praag naar Hamburg volgens mij die Elbe."
+279.434
+280.761
+""
+280.761
+281.791
+"dus uh."
+281.791
+283.109
+""
+283.109
+285.663
+"ja ik ik moet gewoon wat meer informatie d'r over gaan zoeken"
+285.663
+287.964
+"want ik merk gewoon dat 'k 't heel onpre-plezierig*u vind"
+287.964
+289.642
+"als ik niet weet hoe 't 'r uitziet daar."
+289.642
+291.845
+"dus ik heb me helemaal suf lopen zoeken op internet."
+291.845
+292.098
+""
+292.098
+294.525
+"maar ik vind 't dan heel lastig om iets van foto's of zo te vinden."
+294.525
+296.822
+"terwijl die Mosel en die uh weet ik 't wat"
+296.822
+299.205
+"en de Donau natuurlijk uit den treure beschreven wordt."
+299.205
+300.494
+""
+300.494
+301.814
+"maar ja 't schijnt wel uh"
+301.814
+302.306
+""
+302.306
+303.19
+"'t schijnt leuk te zijn."
+303.19
+306.084
+"maar ik wil niet straks langs allemaal industrieterreinen fietsen of zo."
+306.084
+307.466
+""
+307.466
+308.171
+"dus uh."
+308.171
+308.999
+""
+308.999
+310.733
+"ja nou dat zou niet moeten hoor."
+310.733
+313.361
+"want anders gaan ze daar ook niet zo'n hele fietstocht van maken."
+313.361
+314.86
+"dat lijkt me sterk maar."
+314.86
+315.495
+""
+315.495
+318.285
+"'k weet niet of 'r nog verschil zit tussen 't stuk van Praag naar Dresden"
+318.285
+319.335
+"of van Dresden naar Hamburg."
+319.335
+321.764
+"of tenminste of 't één echt veel mooier dan 't andere is."
+321.764
+323.073
+"dat weet 'k dus eigenlijk niet."
+323.073
+325.81
+""
+325.81
+326.817
+"wat romantisch."
+326.817
+328.918
+""
+328.918
+329.176
+"ja."
+329.176
+329.824
+""
+329.824
+332.073
+"ja m'n broer die was 'r met Interrail wel langs gekomen."
+332.073
+333.592
+"die zei ook van ja 't is echt schitterend."
+333.592
+335.136
+"en 'k had 'n site gevonden van 'n schipper."
+335.136
+337.139
+"die zei nou 't is echt de mooiste rivier "
+337.139
+338.246
+"die ik ken in Duitsland."
+338.246
+339.067
+""
+339.067
+339.682
+"maar ja goed."
+339.682
+340.231
+""
+340.231
+342.188
+"varen of fietsen is natuurlijk uh..."
+342.188
+345.186
+""
+345.186
+345.511
+"ja."
+345.511
+346.278
+""
+346.278
+346.982
+"ja precies."
+346.982
+350.338
+""
+350.338
+351.211
+"ja daarom."
+351.211
+352.419
+"daar was ik dus 'n beetje bang voor "
+352.419
+353.594
+"ben je 't niet op 'n gegeven moment zat."
+353.594
+354.589
+"maar ja aan de andere kant"
+354.589
+355.131
+""
+355.131
+356.783
+"zei Gerard ook van ja uh"
+356.783
+359.636
+"in Zweden ben je op 'n gegeven moment ook alle loofbossen heb je dan wel gezien."
+359.636
+361.322
+"'k bedoel dat kun je dan bij alles wel zeggen eigenlijk."
+361.322
+361.504
+""
+361.504
+362.197
+"en uh."
+362.197
+363.909
+""
+363.909
+364.2
+"ja."
+364.2
+365.598
+""
+365.598
+366.795
+"'k bedoel je hebt natuurlijk nooit zo'n reis"
+366.795
+368.999
+"waarbij je van de ene naar de andere..."
+368.999
+371.02
+""
+371.02
+371.322
+"ja."
+371.322
+373.392
+""
+373.392
+374.678
+"Polinesië jeetje."
+374.678
+376.183
+""
+376.183
+377.28
+"ja ergens in 't uh..."
+377.28
+377.727
+""
+377.727
+378.074
+"ja."
+378.074
+378.656
+""
+378.656
+379.047
+"wow."
+379.047
+384.134
+""
+384.134
+384.525
+"ja."
+384.525
+394.264
+""
+394.264
+394.711
+"ja."
+394.711
+395.953
+""
+395.953
+396.725
+"ja ja ja."
+396.725
+400.375
+""
+400.375
+400.856
+"o."
+400.856
+401.035
+""
+401.035
+401.46
+"oké."
+401.46
+402.914
+""
+402.914
+403.182
+"o."
+403.182
+403.9
+""
+403.9
+404.291
+"dus die..."
+404.291
+404.403
+""
+404.403
+405.376
+"o ja ja ja."
+405.376
+406.357
+""
+406.357
+406.715
+"ja"
+406.715
+407.98
+"dus jij denkt daar ga ik ook maar heen?"
+407.98
+408.259
+""
+408.259
+409.557
+"daar ga je na je pensioen wonen?"
+409.557
+410.631
+""
+410.631
+411.291
+"ggg."
+411.291
+412.954
+""
+412.954
+414.297
+"du*v wilt*x ggg ja."
+414.297
+416.031
+""
+416.031
+417.149
+"ja ja ja ja."
+417.149
+417.619
+""
+417.619
+417.854
+"ja."
+417.854
+419.476
+""
+419.476
+419.856
+"ja."
+419.856
+427.07
+""
+427.07
+427.584
+"ja."
+427.584
+429.887
+""
+429.887
+430.67
+"o precies."
+430.67
+431.58
+"die uh..."
+431.58
+432.124
+"oké."
+432.124
+435.021
+""
+435.021
+435.435
+"ja."
+435.435
+443.611
+""
+443.611
+444.081
+"hum hum."
+444.081
+446.609
+""
+446.609
+447.538
+"nee precies."
+447.538
+453.984
+""
+453.984
+454.275
+"ja."
+454.275
+458.57
+""
+458.57
+459.096
+"ja ja."
+459.096
+466.883
+""
+466.883
+467.548
+"ja ja ja."
+467.548
+468.365
+"oké."
+468.365
+470.707
+""
+470.707
+471.3
+"ja ja ja."
+471.3
+473.828
+""
+473.828
+474.13
+"ja."
+474.13
+476.161
+"'t is best wel lekker volgens mij ook daar wel."
+476.161
+476.407
+"maar."
+476.407
+476.732
+"ggg."
+476.732
+477.951
+"ik moet zeggen dat Asia"
+477.951
+479.645
+"of Azië trekt me helemaal niet."
+479.645
+481.533
+"maar meer omdat 'k 'n beetje 'n schijtluis ben."
+481.533
+482.699
+"en bang ben voor enge dieren."
+482.699
+484.059
+"en dan zegt iedereen dat valt wel mee"
+484.059
+485.469
+"maar 't idee alleen al uh..."
+485.469
+487.022
+""
+487.022
+488.852
+"'n vriendin van mij was naar Vietnam gegaan."
+488.852
+490.187
+"en die liep daar door de bush*v bush*v."
+490.187
+492.217
+"en die was al 'n beetje nogal ziek geworden."
+492.217
+494.055
+"b-beetje*u voedselvergiftiging opgelopen."
+494.055
+494.938
+"en die uhm"
+494.938
+495.599
+""
+495.599
+498.589
+"loopt op 'n gegeven moment eigen*a meer alles te ontwijken."
+498.589
+500.008
+"en die kijkt niet voor zich."
+500.008
+501.685
+"en die loopt recht in zo'n groot web"
+501.685
+504.265
+"met 'n dikke vette spin die dus op d'r schouder zat."
+504.265
+504.894
+""
+504.894
+505.947
+"en gelukkig in reflex"
+505.947
+507.232
+"ze had 'n foldertje in d'r handen"
+507.232
+508.391
+"slaat ze 'm wel van zich af."
+508.391
+510.221
+"en hij bleek niet heel giftig te zijn."
+510.221
+512.756
+"maar ik dacht o nou daar moet ik dus echt niet aan denken gewoon ggg."
+512.756
+513.705
+""
+513.705
+514.863
+"lijkt me zo vreselijk."
+514.863
+515.503
+""
+515.503
+515.977
+"ja."
+515.977
+516.197
+""
+516.197
+518.05
+"ja en daarom zou ik dus ook nooit in m'n eentje "
+518.05
+519.319
+"daar gaan backpacken*n of zo."
+519.319
+519.506
+""
+519.506
+519.914
+"en ik..."
+519.914
+520.499
+""
+520.499
+520.918
+"toen ik naar N*a"
+520.918
+522.542
+"ik ben vijf maanden in New Zeeland geweest."
+522.542
+524.859
+"toen ben 'k één week in Sydney geweest als stop-over*v."
+524.859
+527.696
+"maar ik had ook echt zoiets van nee ik ga niet in Australië rondtrekken."
+527.696
+529.046
+"dat trekt me echt helemaal niet aan"
+529.046
+530.955
+"met die slangen en die spinnen en die uh..."
+530.955
+532.288
+""
+532.288
+532.927
+"ja je moet oo*a..."
+532.927
+536.198
+""
+536.198
+536.849
+"ja."
+536.849
+546.575
+""
+546.575
+546.95
+"ja."
+546.95
+547.524
+""
+547.524
+547.866
+"ja."
+547.866
+553.768
+""
+553.768
+554.749
+"die gingen ze gewoon..."
+554.749
+556.227
+""
+556.227
+556.746
+"nou ja."
+556.746
+557.043
+""
+557.043
+557.496
+"goed ja."
+557.496
+558.665
+"dat zou heel goed kunnen natuurlijk."
+558.665
+559.062
+"ja."
+559.062
+570.706
+""
+570.706
+571.191
+"ja."
+571.191
+574.9
+""
+574.9
+575.529
+"ja."
+575.529
+575.86
+""
+575.86
+576.069
+"ja"
+576.069
+576.179
+""
+576.179
+576.885
+"ja ja."
+576.885
+583.709
+""
+583.709
+585.981
+"oh vreselijk daar heb ik eerlijk gezegd..."
+585.981
+587.697
+""
+587.697
+589.34
+"nee nee nee maar..."
+589.34
+592.186
+""
+592.186
+593.124
+"ja ja ja."
+593.124
+595.069
+""
+595.069
+595.466
+"ggg."
+595.466
+597.01
+"je gewoon echt op moet passen."
+597.01
+597.694
+""
+597.694
+599.161
+"de-buh*u dus eigenlijk dus nooit bij stil gestaan"
+599.161
+601.632
+"dat het op van die mooie eilanden natuurlijk ook gewoon enge beesten zitten."
+601.632
+603.121
+"want 't is natuurlijk gewoon in warme landen."
+603.121
+603.805
+""
+603.805
+605.01
+"maar dat zou 'k nog wel 'n keer doen."
+605.01
+607.162
+"ik ben helemaal helemaal geen strandmens*n of wat dan ook."
+607.162
+609.432
+"maar af en toe zie ik ook echt plaatjes van dat soort eilanden."
+609.432
+611.971
+"dan denk 'k nou één keer in m'n leven lijkt 't me gewoon geweldig."
+611.971
+613.358
+"ook echt voor 't mooie."
+613.358
+613.46
+""
+613.46
+615.136
+"niet om daar in de zon te gaan liggen bakken."
+615.136
+616.819
+"maar gewoon van ja 't is zoiets..."
+616.819
+618.164
+""
+618.164
+620.449
+"ja maar 't is gewoon zo paradijselijk."
+620.449
+622.961
+"dan denk 'k dat zou lijkt me zo leuk om 'n keer echt te zien."
+622.961
+624.21
+""
+624.21
+624.75
+"hum hum."
+624.75
+624.905
+""
+624.905
+625.28
+"ja ja."
+625.28
+626.67
+""
+626.67
+627.905
+"nee joh dat hou je niet uh..."
+627.905
+628.622
+"ja precies."
+628.622
+629.24
+"hum hum."
+629.24
+632.811
+""
+632.811
+633.109
+"ja."
+633.109
+636.547
+""
+636.547
+636.69
+"ggg."
+636.69
+639.029
+""
+639.029
+639.47
+"ja."
+639.47
+641.665
+""
+641.665
+642.702
+"nee nee nee."
+642.702
+652.221
+""
+652.221
+652.684
+"ja."
+652.684
+660
+""
+660
+661.5
+"o gadver ja."
+661.5
+663.298
+""
+663.298
+663.861
+"ja ja."
+663.861
+667.198
+""
+667.198
+667.55
+"ja."
+667.55
+668.83
+""
+668.83
+669.669
+"oh bah."
+669.669
+670.088
+"ja."
+670.088
+670.596
+"zie je?"
+670.596
+670.938
+""
+670.938
+671.258
+"ja."
+671.258
+671.346
+""
+671.346
+672.956
+"zo is 'r altijd wel weer wat natuurlijk."
+672.956
+673.585
+""
+673.585
+673.794
+"ggg."
+673.794
+674.511
+""
+674.511
+676.626
+"maar 'k had 'n ex-vriend*n die is chemicus."
+676.626
+677.585
+"of uh scheikundige."
+677.585
+678.512
+"en die is toen"
+678.512
+678.766
+""
+678.766
+681.378
+"die net afgestudeerd was gevraagd door 'n apotheker"
+681.378
+683.869
+"en 'n vriend van hem om naar de Seychellen te gaan met hem"
+683.869
+685.174
+"en daar 'n praktijk op te zetten."
+685.174
+687.061
+"of 'n praktijk 'n uh apotheker."
+687.061
+687.723
+""
+687.723
+688.895
+"toen heeft ie gewoon nee gezegd."
+688.895
+689.3
+"ggg."
+689.3
+689.664
+"toen"
+689.664
+690.061
+""
+690.061
+690.901
+"zag 'k die plaatjes. "
+690.901
+692.248
+"dus ik denk ja jij bent stom."
+692.248
+693.03
+"dat jij dat uh..."
+693.03
+693.669
+"maar ja goed."
+693.669
+695.633
+"hij wilde graag promoveren en dat heeft ie gedaan."
+695.633
+697.08
+"nu heeft ie 'n goeie baan in Nottingham."
+697.08
+698.669
+"maar als 'k dan denk ja Nottingham of"
+698.669
+699.297
+""
+699.297
+701.141
+"de Seychellen ja ja ja."
+701.141
+702.007
+""
+702.007
+702.338
+"xxx"
+702.338
+708.701
+""
+708.701
+709.065
+"ja."
+709.065
+710.78
+""
+710.78
+712.512
+"nee nou ja ikzelf dus ook niet."
+712.512
+714.464
+"maar 't is meer dat ik denk jeetje wat 'n aanbod."
+714.464
+714.994
+""
+714.994
+717.314
+"op z'n minst zou 'k 't 'n jaar geprobeerd hebben of zo."
+717.314
+717.645
+"ja."
+717.645
+717.976
+""
+717.976
+718.23
+"ja."
+718.23
+719.465
+""
+719.465
+719.719
+"ja."
+719.719
+726.768
+""
+726.768
+727.055
+"nee."
+727.055
+727.75
+""
+727.75
+728.489
+"waar is dat dan?"
+728.489
+729.659
+""
+729.659
+730.133
+"o."
+730.133
+730.376
+""
+730.376
+730.85
+"oké."
+730.85
+731.667
+""
+731.667
+732.02
+"ja."
+732.02
+734.38
+""
+734.38
+734.898
+"ja ja."
+734.898
+739.578
+""
+739.578
+739.92
+"ja."
+739.92
+744.238
+""
+744.238
+744.591
+"ja."
+744.591
+757.568
+""
+757.568
+758.417
+"ja ja."
+758.417
+761.874
+""
+761.874
+762.216
+"ggg."
+762.216
+762.525
+""
+762.525
+764.676
+"ja ja ja nee ja ja."
+764.676
+765.961
+"'k vind 't wel wat hebben op zich."
+765.961
+766.557
+""
+766.557
+768.191
+"'k ben helemaal niet zo'n stadsmens ook."
+768.191
+769.432
+"dus 'k zou 't op zich wel leuk vinden."
+769.432
+771.027
+"maar 't is meer dat 'k ook geen auto rij."
+771.027
+773.491
+"en dat ik denk ja als je echt echt afgelegen woont"
+773.491
+774.804
+"hoe doe je dan inderdaad alles?"
+774.804
+776.012
+"hoe regel je gewoon alles."
+776.012
+777.413
+"dat snap ik ook niet zo uh."
+777.413
+778.297
+""
+778.297
+779.311
+"'k ben toen één keer in New Zeeland"
+779.311
+779.819
+"was wel leuk"
+779.819
+781.87
+"doorgestoken van de ene kant van 't eiland naar 't andere."
+781.87
+783.555
+"over zo'n uh zo'n pas."
+783.555
+784.856
+"zo'n uh bergpas."
+784.856
+785.463
+""
+785.463
+787.21
+"en 't had toen ook net flink gesneeuwd."
+787.21
+787.761
+""
+787.761
+788.958
+"en dat was ook echt letterlijk iets van"
+788.958
+791.181
+"drie huizen 'n eetcafé en 'n jeugdherberg."
+791.181
+791.611
+""
+791.611
+793.838
+"en dat ik ook met die mensen sprak van ja hoe doen jullie dat dan?"
+793.838
+795.588
+"want d'r d'r was gewoon verder eigenlijk niks."
+795.588
+795.816
+""
+795.816
+798.353
+"en zei ze ja ja nou 't is gewoon uh zo lang rijden"
+798.353
+799.544
+"naar de dichtstbijzijnde stad."
+799.544
+800.007
+""
+800.007
+801.335
+"dus je maakt gewoon 'n lijst"
+801.335
+802.161
+"de hele week."
+802.161
+804.335
+"van nou ik moet naar de kapper 'k moet naar de apotheek."
+804.335
+805.809
+"dit en dat en dat heb ik nodig."
+805.809
+806.527
+"en dan ga je."
+806.527
+808.049
+"je moet echt alles doen."
+808.049
+809.726
+"en als je wat vergeet ben je gewoon de lul."
+809.726
+810.354
+""
+810.354
+812.057
+"en uh nou ja je bent heel erg"
+812.057
+812.33
+"uh"
+812.33
+813.371
+"op elkaar aangewezen."
+813.371
+815.037
+"dus als jij ineens geen eieren meer hebt dan"
+815.037
+815.335
+""
+815.335
+815.677
+"'k bedoel"
+815.677
+815.864
+""
+815.864
+817.033
+"hebben de buren ze nog wel."
+817.033
+817.517
+"dus uh"
+817.517
+818.984
+"'t is 'n hele hechte gemeenschap."
+818.984
+820.036
+"maar dat moeten ze ook wel."
+820.036
+821.095
+""
+821.095
+822.567
+"en dat ik dacht ja daar zou 'k toch wel..."
+822.567
+823.758
+"ja je woont daar echt schitterend."
+823.758
+826.085
+"maar daar zou ik wel 'n beetje moedeloos van worden dat 'k denk ja."
+826.085
+826.824
+""
+826.824
+829.315
+"weet je dat je nooit zomaar als je denkt ik heb trek in uh"
+829.315
+830.528
+""
+830.528
+831.267
+"Ben en Jerry's."
+831.267
+831.642
+"ggg."
+831.642
+832.172
+"dan uh"
+832.172
+833.526
+""
+833.526
+835.567
+"moet je eerst uh twee uur in de auto gaan zitten."
+835.567
+836.736
+"en naar zo'n stad gaan rijden."
+836.736
+838.362
+"nou dat lijkt me ook echt helemaal niks."
+838.362
+839.002
+""
+839.002
+839.377
+"maar ja."
+839.377
+840.161
+""
+840.161
+841.022
+"mensen zijn 't gewend."
+841.022
+841.364
+""
+841.364
+842.213
+"kiezen d'r voor."
+842.213
+846.87
+""
+846.87
+847.841
+"kch"
+847.841
+858.816
+""
+858.816
+861.056
+"dat is dat m*a eilandje waar jij 't altijd over hebt."
+861.056
+861.199
+""
+861.199
+861.475
+"ja."
+861.475
+864.53
+""
+864.53
+865.104
+"oké."
+865.104
+868.466
+""
+868.466
+869.139
+"oké."
+869.139
+877.31
+""
+877.31
+877.751
+"nee."
+877.751
+878.104
+""
+878.104
+879.163
+"toch niet hum hum."
+879.163
+884.761
+""
+884.761
+885.125
+"ja."
+885.125
+886.64
+""
+886.64
+887.467
+"nee nee nee."
+887.467
+892.971
+""
+892.971
+893.302
+"ja."
+893.302
+893.585
+""
+893.585
+893.949
+"xxx"
+893.949
+894.199
+"precies*u"
+894.199
+895.799
+"ik zie jou ook echt wel als stadsmens."
+895.799
+897.489
+"of althans wel iemand die waardeert "
+897.489
+897.942
+""
+897.942
+899.144
+"om d'r gewoon eens uit te zijn."
+899.144
+900
+"maar volgens mij ben jij wel ech*a..."
+"IntervalTier"
+"kijkrichting spreker2 [v] (TIE3)"
+0
+900
+218
+0.01
+11.09
+"g"
+11.09
+11.54
+"x"
+11.54
+55.89
+"g"
+55.89
+55.9
+""
+55.9
+56.63
+"x"
+56.63
+57.01
+"g"
+57.01
+57.5
+"x"
+57.5
+105.25
+"g"
+105.25
+105.66
+"x"
+105.66
+105.67
+""
+105.67
+112.76
+"g"
+112.76
+112.77
+""
+112.77
+113.73
+"x"
+113.73
+128.62
+"g"
+128.62
+129.59
+"x"
+129.59
+137.21
+"g"
+137.21
+137.22
+""
+137.22
+138.03
+"x"
+138.03
+162.91
+"g"
+162.91
+165.21
+"x"
+165.21
+166.26
+"g"
+166.26
+167.73
+"x"
+167.73
+168.39
+"g"
+168.39
+169.1
+"x"
+169.1
+184.83
+"g"
+184.83
+185.12
+"x"
+185.12
+188.73
+"g"
+188.73
+189.56
+"x"
+189.56
+192.69
+"g"
+192.69
+193.43
+"x"
+193.43
+205.97
+"g"
+205.97
+210.01
+"x"
+210.01
+213.35
+"g"
+213.35
+219.16
+"x"
+219.16
+222.6
+"g"
+222.6
+222.61
+""
+222.61
+227.51
+"x"
+227.51
+227.52
+""
+227.52
+229.16
+"g"
+229.16
+229.69
+"x"
+229.69
+230.18
+"g"
+230.18
+231.07
+"x"
+231.07
+231.08
+""
+231.08
+235.27
+"g"
+235.27
+236.51
+"x"
+236.51
+242.64
+"g"
+242.64
+247.28
+"x"
+247.28
+252.8
+"g"
+252.8
+253.43
+"x"
+253.43
+257.28
+"g"
+257.28
+259.42
+"x"
+259.42
+259.43
+""
+259.43
+261.91
+"g"
+261.91
+262.69
+"x"
+262.69
+262.7
+""
+262.7
+266.32
+"g"
+266.32
+266.81
+"x"
+266.81
+268.61
+"g"
+268.61
+269.07
+"x"
+269.07
+269.82
+"g"
+269.82
+271.72
+"x"
+271.72
+271.73
+""
+271.73
+279.53
+"g"
+279.53
+288.43
+"x"
+288.43
+299.23
+"g"
+299.23
+299.24
+""
+299.24
+302.73
+"x"
+302.73
+308.81
+"g"
+308.81
+310.21
+"x"
+310.21
+313.28
+"g"
+313.28
+314.33
+"x"
+314.33
+314.34
+""
+314.34
+315.79
+"g"
+315.79
+316.47
+"x"
+316.47
+321.98
+"g"
+321.98
+321.99
+""
+321.99
+323.23
+"x"
+323.23
+329.63
+"g"
+329.63
+334.63
+"x"
+334.63
+334.64
+""
+334.64
+337.87
+"g"
+337.87
+337.88
+""
+337.88
+339.31
+"x"
+339.31
+350.74
+"g"
+350.74
+352.19
+"x"
+352.19
+353.57
+"g"
+353.57
+358.07
+"x"
+358.07
+358.08
+""
+358.08
+368.26
+"g"
+368.26
+368.44
+"x"
+368.44
+373.61
+"g"
+373.61
+374.27
+"x"
+374.27
+401.24
+"g"
+401.24
+401.62
+"x"
+401.62
+401.63
+""
+401.63
+412.89
+"g"
+412.89
+412.9
+""
+412.9
+413.16
+"x"
+413.16
+431.07
+"g"
+431.07
+431.82
+"x"
+431.82
+443.45
+"g"
+443.45
+444.38
+"x"
+444.38
+450.6
+"g"
+450.6
+450.97
+"x"
+450.97
+459.35
+"g"
+459.35
+460.15
+"x"
+460.15
+473.86
+"g"
+473.86
+473.87
+""
+473.87
+474.72
+"x"
+474.72
+476.1
+"g"
+476.1
+481.7
+"x"
+481.7
+486.8
+"g"
+486.8
+486.81
+""
+486.81
+488.23
+"x"
+488.23
+488.24
+""
+488.24
+492.66
+"g"
+492.66
+498.08
+"x"
+498.08
+498.09
+""
+498.09
+506.92
+"g"
+506.92
+507.2
+"x"
+507.2
+508.13
+"g"
+508.13
+509.04
+"x"
+509.04
+510.27
+"g"
+510.27
+510.28
+""
+510.28
+511.68
+"x"
+511.68
+515.92
+"g"
+515.92
+516.45
+"x"
+516.45
+518.37
+"g"
+518.37
+519.09
+"x"
+519.09
+519.62
+"g"
+519.62
+523.43
+"x"
+523.43
+525.1
+"g"
+525.1
+526.68
+"x"
+526.68
+546.7
+"g"
+546.7
+547.18
+"x"
+547.18
+556.33
+"g"
+556.33
+557.66
+"x"
+557.66
+583.82
+"g"
+583.82
+585.45
+"x"
+585.45
+595.74
+"g"
+595.74
+595.75
+""
+595.75
+596.42
+"x"
+596.42
+597.71
+"g"
+597.71
+599.29
+"x"
+599.29
+600.15
+"g"
+600.15
+600.16
+""
+600.16
+602.59
+"x"
+602.59
+603.63
+"g"
+603.63
+603.64
+""
+603.64
+608.44
+"x"
+608.44
+620.54
+"g"
+620.54
+622.16
+"x"
+622.16
+656.09
+"g"
+656.09
+656.41
+"x"
+656.41
+659.94
+"g"
+659.94
+661.47
+"x"
+661.47
+668.8
+"g"
+668.8
+671.49
+"x"
+671.49
+673.89
+"g"
+673.89
+673.9
+""
+673.9
+680.78
+"x"
+680.78
+686.66
+"g"
+686.66
+688.21
+"x"
+688.21
+690.31
+"g"
+690.31
+691.35
+"x"
+691.35
+693
+"g"
+693
+696.98
+"x"
+696.98
+710.66
+"g"
+710.66
+713.72
+"x"
+713.72
+715.04
+"g"
+715.04
+715.67
+"x"
+715.67
+729.73
+"g"
+729.73
+730.58
+"x"
+730.58
+730.59
+""
+730.59
+762.56
+"g"
+762.56
+763.28
+"x"
+763.28
+763.48
+"g"
+763.48
+768.81
+"x"
+768.81
+771.14
+"g"
+771.14
+771.8
+"x"
+771.8
+772.42
+"g"
+772.42
+773.24
+"x"
+773.24
+773.25
+""
+773.25
+777.86
+"g"
+777.86
+781.41
+"x"
+781.41
+784.89
+"g"
+784.89
+788.74
+"x"
+788.74
+791.44
+"g"
+791.44
+793.15
+"x"
+793.15
+795.67
+"g"
+795.67
+797.57
+"x"
+797.57
+799.23
+"g"
+799.23
+799.65
+"x"
+799.65
+806.66
+"g"
+806.66
+807.39
+"x"
+807.39
+810.25
+"g"
+810.25
+812.45
+"x"
+812.45
+819.72
+"g"
+819.72
+822.13
+"x"
+822.13
+826.15
+"g"
+826.15
+827.2
+"x"
+827.2
+831.92
+"g"
+831.92
+833.65
+"x"
+833.65
+834.78
+"g"
+834.78
+835.04
+"x"
+835.04
+840.24
+"g"
+840.24
+840.6
+"x"
+840.6
+849.16
+"g"
+849.16
+849.69
+"x"
+849.69
+878.36
+"g"
+878.36
+878.82
+"x"
+878.82
+878.83
+""
+878.83
+893.42
+"g"
+893.42
+895.49
+"x"
+895.49
+898.42
+"g"
+898.42
+898.43
+""
+898.43
+899.48
+"x"
+899.48
+899.959
+"g"
