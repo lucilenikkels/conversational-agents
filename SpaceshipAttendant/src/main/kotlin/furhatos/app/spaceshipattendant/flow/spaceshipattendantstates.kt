@@ -12,10 +12,17 @@ var citizenRooms = 5
 var suiteRooms = 2
 
 val InitialState = state(Interaction) {
+
+    onTime(repeat=100..8000) {
+        val duration = Random.nextInt(100, 3000)
+        println("Random gaze for $duration milliseconds")
+        furhat.glance(randomLocation(), duration=duration)
+    }
+
     onEntry {
-        call(randomGlance)
         furhat.say("Hello, how can I help you?")
         furhat.glance(users.current)
+        furhat.listen()
     }
 
     onReentry {
