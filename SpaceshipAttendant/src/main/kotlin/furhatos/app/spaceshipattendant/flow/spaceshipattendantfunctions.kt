@@ -52,3 +52,10 @@ fun randomLocation() : Location {
             Location.DOWN_LEFT, Location.DOWN_RIGHT, Location.UP_LEFT, Location.UP_RIGHT)
     return glances.shuffled().take(1)[0]
 }
+
+fun sampleGaussian(mean : Double, std : Double) : Int {
+    val r = java.util.Random()
+    val x = ((r.nextGaussian() * std + mean) * 1000).toInt()
+//    println("$x sampled")
+    return x
+}

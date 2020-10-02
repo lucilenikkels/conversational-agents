@@ -11,11 +11,22 @@ import kotlin.random.Random
 var citizenRooms = 5
 var suiteRooms = 2
 
+// Constants retrieved from gaze file
+const val randomGazeMean = 1.3726315789473684
+const val randomGazeStd = 1.1903747402228744
+const val userGazeMean = 8.095884210526314
+const val userGazeStd = 14.26086952089024
+
 val InitialState = state(Interaction) {
+
+    onTime(repeat=1000..10000, instant = true) {
+        furhat.glance(randomLocation(), duration=sampleGaussian(randomGazeMean, randomGazeStd))
+    }
+
     onEntry {
-        call(randomGlance)
         furhat.say("Hello, how can I help you?")
         furhat.glance(users.current)
+        furhat.listen()
     }
 
     onReentry {
