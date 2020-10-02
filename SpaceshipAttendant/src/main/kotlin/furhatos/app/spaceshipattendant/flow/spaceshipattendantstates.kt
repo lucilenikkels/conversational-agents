@@ -5,13 +5,17 @@ import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.flow.kotlin.*
 import furhatos.nlu.common.*
 import furhatos.nlu.common.Number
+import furhatos.records.Location
+import kotlin.random.Random
 
 var citizenRooms = 5
 var suiteRooms = 2
 
 val InitialState = state(Interaction) {
     onEntry {
-        furhat.ask("Hello, how can I help you?")
+        call(randomGlance)
+        furhat.say("Hello, how can I help you?")
+        furhat.glance(users.current)
     }
 
     onReentry {
@@ -308,5 +312,21 @@ val EndState : State = state {
                 "Enterprise will be a fun and relaxing one.")
         println(users.current.checkinData.toString())
         goto(Idle)
+    }
+}
+
+val randomGlance = state {
+    onEntry{
+        val randInt = Random.nextDouble()
+        if (randInt > 0.8) {
+            println("Glance at user")
+            furhat.glance(users.current)
+        } else {
+            val location = randomLocation()
+            val duration = Random.nextInt(1000, 3000)
+            println("Glance at $location for $duration milliseconds")
+            furhat.glance(location, duration=duration)
+        }
+        terminate()
     }
 }
