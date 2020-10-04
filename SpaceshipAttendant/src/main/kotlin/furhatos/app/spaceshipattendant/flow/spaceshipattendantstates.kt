@@ -5,11 +5,21 @@ import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.flow.kotlin.*
 import furhatos.nlu.common.*
 import furhatos.nlu.common.Number
+import kotlin.random.Random
 
 var citizenRooms = 5
 var suiteRooms = 2
 
 val InitialState = state(Interaction) {
+
+    onTime(repeat=2000..4500) {
+        if (furhat.isSpeaking) {
+            furhat.glance(randomLocation(), duration=Random.nextInt(1000,2000))
+        } else {
+            furhat.glance(randomLocation(), duration=Random.nextInt(500,1000))
+        }
+    }
+
     onEntry {
         furhat.ask("Hello, how can I help you?")
     }

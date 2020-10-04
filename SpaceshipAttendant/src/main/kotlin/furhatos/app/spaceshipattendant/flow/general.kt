@@ -10,17 +10,6 @@ val Idle: State = state {
 
     init {
         furhat.setVoice(Language.ENGLISH_US, Gender.MALE)
-
-        furhat.setMicroexpression(
-                defineMicroexpression {
-                    // Adjust eye gaze randomly (between -180 and 180 degrees) with a random interval of 0-1000 ms.
-                    repeat(0..1000) {
-                        adjust(-180.0..180.0, BasicParams.GAZE_PAN)
-                        adjust(-180.0..180.0, BasicParams.GAZE_TILT)
-                    }
-                    repeat(2000..8000, Gestures.Blink)
-                })
-
         if (users.count > 0) {
             furhat.attend(users.random)
             goto(InitialState)

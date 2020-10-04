@@ -4,7 +4,7 @@ import furhatos.app.spaceshipattendant.checkinData
 import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.flow.kotlin.*
 import furhatos.nlu.common.*
-import java.awt.Robot
+import furhatos.records.Location
 
 
 fun guestsHeared(guests: Guests) : State = state {
@@ -44,4 +44,11 @@ fun activitiesReceived(activs : ActivityList) : State = state {
         }
         goto(EndState)
     }
+}
+
+fun randomLocation() : Location {
+    val glances = listOf<Location>(
+            Location.DOWN, Location.RIGHT, Location.LEFT,
+            Location.DOWN_LEFT, Location.DOWN_RIGHT)
+    return glances.shuffled().take(1)[0]
 }
