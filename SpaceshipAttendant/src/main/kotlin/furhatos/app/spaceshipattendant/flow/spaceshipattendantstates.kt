@@ -23,8 +23,9 @@ val InitialState = state(Interaction) {
     }
 
     onEntry {
+        furhat.say("Hello, how can I help you?")
         furhat.glance(users.current)
-        furhat.ask("Hello, how can I help you?")
+        furhat.listen()
     }
 
     onReentry {
@@ -47,10 +48,11 @@ val RobotIntro : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
                 "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today.")
-        furhat.ask("Would you like to check in?")
+        furhat.say("Would you like to check in?")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onResponse<No> {
@@ -73,10 +75,11 @@ val CheckinIntro = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("Great! As the travel is longer than two days on our journey to Vulkan, regulation requires\n" +
                 "we ask a few questions.")
-        furhat.ask("Is that okay with you?")
+        furhat.say("Is that okay with you?")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onResponse<No> {
@@ -95,9 +98,10 @@ val UserDeclines = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("Without your information I cannot book you in.")
-        furhat.ask("Are you sure?")
+        furhat.say("Are you sure?")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onResponse<No> {
@@ -117,9 +121,10 @@ val HowManyGuests = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("Let's get started then.")
-        furhat.ask("How many people would you like to checkin?")
+        furhat.say("How many people would you like to checkin?")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onReentry {
@@ -144,8 +149,9 @@ val RandomQuestion : State = state {
     }
 
     onEntry {
+        furhat.say(" By the way, would you like to know about the available amenities in our rooms?")
         furhat.glance(users.current)
-        furhat.ask(" By the way, would you like to know about the available amenities in our rooms?")
+        furhat.listen()
     }
 
     onResponse<Yes> {
@@ -170,10 +176,11 @@ val FurtherDetails : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
-        furhat.ask(" Perfect. Now, could you give me your name, how long you intend to stay on Starship\n" +
+        furhat.say(" Perfect. Now, could you give me your name, how long you intend to stay on Starship\n" +
                 "Enterprise, and whether you would like to stay in our Suite-class rooms or the Citizen-class rooms?\n"+
                 "Suite class have 2 beds, citizen-class have 1 bed.")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onReentry {
@@ -197,14 +204,15 @@ val StarshipOverload : State = state {
         call(glanceState)
     }
     onEntry {
-        furhat.glance(users.current)
         if (users.current.checkinData.type?.value === "citizen") {
-            furhat.ask("Unfortunately there are no rooms left of this kind. We only have ${citizenRooms} rooms of this kind\n" +
+            furhat.say("Unfortunately there are no rooms left of this kind. We only have ${citizenRooms} rooms of this kind\n" +
                     "free. Would you like to change the number of people you are checking in?")
         } else if (users.current.checkinData.type?.value === "suite") {
-            furhat.ask("Unfortunately there are no rooms left of this kind. We only have ${suiteRooms} rooms of this kind\n" +
+            furhat.say("Unfortunately there are no rooms left of this kind. We only have ${suiteRooms} rooms of this kind\n" +
                     "free. Would you like to change the number of people you are checking in?")
         }
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onResponse<No> {
@@ -227,7 +235,6 @@ val CheckinCancel = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("Alright then, please tell me if you'd like to start over. Otherwise, I wish you a good day.")
     }
 
@@ -246,8 +253,9 @@ val ChangeNumber : State = state {
         call(glanceState)
     }
     onEntry {
+        furhat.say("Wonderful. Please tell me how many guests you would like to check in.")
         furhat.glance(users.current)
-        furhat.ask("Wonderful. Please tell me how many guests you would like to check in.")
+        furhat.listen()
     }
 
     onReentry {
@@ -277,10 +285,11 @@ val SpecificWishes : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
-        furhat.ask("Amazing. The data has been entered to your name, ${users.current.checkinData.name}. Now," +
+        furhat.say("Amazing. The data has been entered to your name, ${users.current.checkinData.name}. Now," +
                 "before asking you about the different activities we offer on board, I would like to ask you if you" +
                 "have any specific wishes for your stay here?")
+        furhat.glance(users.current)
+        furhat.listen()
         if (users.current.checkinData.type?.value === "citizen") {
             citizenRooms = citizenRooms - users.current.checkinData.guestNumber.value!!
         } else if (users.current.checkinData.type?.value === "suite") {
@@ -315,12 +324,13 @@ val WishesLoop : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         random(
-                { furhat.ask("Understood. Anything else?")},
-                { furhat.ask("Sure. Do you need something else?")},
-                { furhat.ask("Noted. Do you have more wishes?")}
+                { furhat.say("Understood. Anything else?")},
+                { furhat.say("Sure. Do you need something else?")},
+                { furhat.say("Noted. Do you have more wishes?")}
         )
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onResponse<Yes> {
@@ -352,7 +362,6 @@ val EndWishes : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("All right, your demands have been noted and will be read by the crew. Let's move on then.\n")
         goto(StarshipActivities)
     }
@@ -365,9 +374,10 @@ val StarshipActivities : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("On Starship Enterprise we offer numerous simulated activities, namely: ${Activity().optionsToText()}.")
-        furhat.ask("Please tell me which ones of those activities you would like to sign up for today.")
+        furhat.say("Please tell me which ones of those activities you would like to sign up for today.")
+        furhat.glance(users.current)
+        furhat.listen()
     }
 
     onReentry {
@@ -396,7 +406,6 @@ val EndState : State = state {
     }
 
     onEntry {
-        furhat.glance(users.current)
         furhat.say("To summarize, you checked in " + users.current.checkinData.toString())
         furhat.say("You have now successfully checked in. You will soon be teleported to your\n" +
                 "room, and your luggage will be delivered by our staff. We hope your stay at Starship\n" +
