@@ -17,20 +17,16 @@ const val randomGazeStd = 1.1903747402228744
 const val userGazeMean = 8.095884210526314
 const val userGazeStd = 14.26086952089024
 
-val gazeInterval = 100..8000
+val gazeInterval = 100..6000
 
 val InitialState = state(Interaction) {
 
     onTime(repeat=gazeInterval, instant = true) {
-        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
-        println("Random gaze for $duration milliseconds")
-        furhat.glance(randomLocation(), duration=duration)
+        call(glanceState)
     }
 
     onEntry {
-        furhat.say("Hello, how can I help you?")
-        furhat.glance(users.current)
-        furhat.listen()
+        furhat.ask("Hello, how can I help you?")
     }
 
     onReentry {
@@ -48,15 +44,13 @@ val InitialState = state(Interaction) {
 
 val RobotIntro : State = state {
 
-    onTime(repeat=gazeInterval) {
-        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
-        println("Random gaze for $duration milliseconds")
-        furhat.glance(randomLocation(), duration=duration)
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
     }
 
     onEntry {
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
-                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today?")
+                "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today.")
         furhat.ask("Would you like to check in?")
     }
 
@@ -75,10 +69,8 @@ val RobotIntro : State = state {
 
 val CheckinIntro = state {
 
-    onTime(repeat=gazeInterval) {
-        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
-        println("Random gaze for $duration milliseconds")
-        furhat.glance(randomLocation(), duration=duration)
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
     }
 
     onEntry {
@@ -97,6 +89,11 @@ val CheckinIntro = state {
 }
 
 val UserDeclines = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("Without your information I cannot book you in.")
         furhat.ask("Are you sure?")
@@ -113,6 +110,11 @@ val UserDeclines = state {
 }
 
 val HowManyGuests = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("Let's get started then.")
         furhat.ask("How many people would you like to checkin?")
@@ -134,6 +136,11 @@ val HowManyGuests = state {
 }
 
 val RandomQuestion : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.ask(" By the way, would you like to know about the available amenities in our rooms?")
     }
@@ -154,6 +161,11 @@ val RandomQuestion : State = state {
 }
 
 val FurtherDetails : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.ask(" Perfect. Now, could you give me your name, how long you intend to stay on Starship\n" +
                 "Enterprise, and whether you would like to stay in our Suite-class rooms or the Citizen-class rooms?\n"+
@@ -176,6 +188,10 @@ val FurtherDetails : State = state {
 }
 
 val StarshipOverload : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
     onEntry {
         if (users.current.checkinData.type?.value === "citizen") {
             furhat.ask("Unfortunately there are no rooms left of this kind. We only have ${citizenRooms} rooms of this kind\n" +
@@ -200,6 +216,11 @@ val StarshipOverload : State = state {
 }
 
 val CheckinCancel = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("Alright then, please tell me if you'd like to start over. Otherwise, I wish you a good day.")
     }
@@ -214,6 +235,10 @@ val CheckinCancel = state {
 }
 
 val ChangeNumber : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
     onEntry {
         furhat.ask("Wonderful. Please tell me how many guests you would like to check in.")
     }
@@ -239,6 +264,11 @@ val ChangeNumber : State = state {
 }
 
 val SpecificWishes : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.ask("Amazing. The data has been entered to your name, ${users.current.checkinData.name}. Now," +
                 "before asking you about the different activities we offer on board, I would like to ask you if you" +
@@ -271,6 +301,11 @@ val SpecificWishes : State = state {
 }
 
 val WishesLoop : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         random(
                 { furhat.ask("Understood. Anything else?")},
@@ -302,6 +337,11 @@ val WishesLoop : State = state {
 }
 
 val EndWishes : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("All right, your demands have been noted and will be read by the crew. Let's move on then.\n")
         goto(StarshipActivities)
@@ -309,6 +349,11 @@ val EndWishes : State = state {
 }
 
 val StarshipActivities : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("On Starship Enterprise we offer numerous simulated activities, namely: ${Activity().optionsToText()}.")
         furhat.ask("Please tell me which ones of those activities you would like to sign up for today.")
@@ -334,6 +379,11 @@ val StarshipActivities : State = state {
 }
 
 val EndState : State = state {
+
+    onTime(repeat=gazeInterval, instant = true) {
+        call(glanceState)
+    }
+
     onEntry {
         furhat.say("To summarize, you checked in " + users.current.checkinData.toString())
         furhat.say("You have now successfully checked in. You will soon be teleported to your\n" +
@@ -344,18 +394,11 @@ val EndState : State = state {
     }
 }
 
-val randomGlance = state {
-    onEntry{
-        val randInt = Random.nextDouble()
-        if (randInt > 0.8) {
-            println("Glance at user")
-            furhat.glance(users.current)
-        } else {
-            val location = randomLocation()
-            val duration = Random.nextInt(1000, 3000)
-            println("Glance at $location for $duration milliseconds")
-            furhat.glance(location, duration=duration)
-        }
+val glanceState : State = state {
+    onEntry {
+        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
+        println("Random gaze for $duration milliseconds")
+        furhat.glance(randomLocation(), duration=duration)
         terminate()
     }
 }
