@@ -5,6 +5,7 @@ import furhatos.flow.kotlin.*
 import furhatos.gestures.BasicParams
 import furhatos.gestures.Gestures
 import furhatos.util.*
+import kotlin.random.Random
 
 val Idle: State = state {
 
@@ -44,5 +45,13 @@ val Interaction: State = state {
     onUserEnter(instant = true) {
         furhat.glance(it)
     }
+
+    /*nTime(repeat=2000..4500) {
+        if (furhat.isSpeaking) {
+            furhat.glance(randomLocation(), duration= Random.nextInt(1000,2000))
+        } else {
+            furhat.glance(randomLocation(), duration= Random.nextInt(500,1000))
+        }
+    }*/
 
 }
