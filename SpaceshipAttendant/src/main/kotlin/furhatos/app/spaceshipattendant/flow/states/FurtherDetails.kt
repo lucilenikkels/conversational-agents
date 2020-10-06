@@ -1,6 +1,7 @@
 package furhatos.app.spaceshipattendant.flow.states
 
 import furhatos.app.spaceshipattendant.checkinData
+import furhatos.app.spaceshipattendant.flow.gaze.DataDrivenGaze
 import furhatos.app.spaceshipattendant.nlu.FurtherDetailsResponse
 import furhatos.app.spaceshipattendant.roomsLeft
 import furhatos.flow.kotlin.furhat
@@ -10,6 +11,9 @@ import furhatos.flow.kotlin.users
 
 val FurtherDetails = state {
     onEntry {
+        parallel {
+            goto(DataDrivenGaze)
+        }
 
         furhat.say("Perfect");
         furhat.ask("Now, could you give me your name, how long you intend to stay on Starship Enterprise," +
