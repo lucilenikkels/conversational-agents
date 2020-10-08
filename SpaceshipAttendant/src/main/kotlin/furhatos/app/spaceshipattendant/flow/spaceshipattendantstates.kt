@@ -18,11 +18,10 @@ val gazeInterval = 100..6000
 
 val InitialState = state(Interaction) {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
         furhat.say("Hello, how can I help you?")
         furhat.glance(users.current)
         furhat.listen()
@@ -43,11 +42,10 @@ val InitialState = state(Interaction) {
 
 val RobotIntro : State = state {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
                 "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today.")
         furhat.say("Would you like to check in?")
@@ -70,11 +68,10 @@ val RobotIntro : State = state {
 
 val CheckinIntro = state {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
         furhat.say("Great! As the travel is longer than two days on our journey to Vulkan, regulation requires\n" +
                 "we ask a few questions.")
         furhat.say("Is that okay with you?")
@@ -93,11 +90,10 @@ val CheckinIntro = state {
 
 val UserDeclines = state {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
         furhat.say("Without your information I cannot book you in.")
         furhat.say("Are you sure?")
         furhat.glance(users.current)
@@ -116,11 +112,11 @@ val UserDeclines = state {
 
 val HowManyGuests = state {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
+
         furhat.say("Let's get started then.")
         furhat.say("How many people would you like to checkin?")
         furhat.glance(users.current)
@@ -144,11 +140,10 @@ val HowManyGuests = state {
 
 val RandomQuestion : State = state {
 
-    onTime(repeat=gazeInterval, instant = true) {
-        call(glanceState)
-    }
-
     onEntry {
+        parallel {
+            goto(glanceState)
+        }
         furhat.say(" By the way, would you like to know about the available amenities in our rooms?")
         furhat.glance(users.current)
         furhat.listen()
@@ -417,9 +412,14 @@ val EndState : State = state {
 
 val glanceState : State = state {
     onEntry {
-        val duration = sampleGaussian(randomGazeMean, randomGazeStd)
-        println("Random gaze for $duration milliseconds")
-        furhat.glance(randomLocation(), duration=duration)
-        terminate()
+        while (true) {
+            val userGazeDuration = sampleGaussian(userGazeMean, userGazeStd)
+            println("Gazing at user for $userGazeDuration millis")
+            delay(userGazeDuration.toLong())
+            val randomGazeDuration = sampleGaussian(randomGazeMean, randomGazeStd)
+            furhat.glance(randomLocation(), duration=randomGazeDuration)
+            println("Gazing at random location for $randomGazeDuration millis")
+            delay(randomGazeDuration.toLong())
+        }
     }
 }
