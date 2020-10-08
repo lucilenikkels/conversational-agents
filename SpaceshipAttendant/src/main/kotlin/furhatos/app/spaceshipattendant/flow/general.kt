@@ -46,12 +46,12 @@ val Interaction: State = state {
         furhat.glance(it)
     }
 
-    /*nTime(repeat=2000..4500) {
+    onTime(repeat=2000..4500) {
         if (furhat.isSpeaking) {
             furhat.glance(randomLocation(), duration= Random.nextInt(1000,2000))
         } else {
             furhat.glance(randomLocation(), duration= Random.nextInt(500,1000))
         }
-    }*/
+    }
 
 }

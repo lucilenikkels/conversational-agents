@@ -5,6 +5,7 @@ import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.flow.kotlin.*
 import furhatos.nlu.common.*
 import furhatos.records.Location
+import kotlin.random.Random
 
 
 fun guestsHeared(guests: Guests) : State = state {
@@ -51,4 +52,16 @@ fun randomLocation() : Location {
             Location.DOWN, Location.RIGHT, Location.LEFT,
             Location.DOWN_LEFT, Location.DOWN_RIGHT)
     return glances.shuffled().take(1)[0]
+}
+
+fun longUtterances() : State = state {
+
+}
+
+fun shortUtterances() : State = state {
+
+}
+
+fun listen() : State = state {
+    //furhat.glance(randomLocation(), duration= Random.nextInt(500,1000))
 }
