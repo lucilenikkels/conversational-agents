@@ -1,5 +1,6 @@
 package furhatos.app.spaceshipattendant.flow.states
 
+import furhatos.app.spaceshipattendant.flow.CustomGaze
 import furhatos.app.spaceshipattendant.flow.Interaction
 import furhatos.app.spaceshipattendant.flow.gaze.DataDrivenGaze
 import furhatos.flow.kotlin.State
@@ -13,7 +14,7 @@ import furhatos.nlu.common.Yes
 fun StarshipOverloaded(rooms: Int): State = state(Interaction) {
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         furhat.say("Unfortunately there are no rooms left of this kind. We only have $rooms rooms of this kind free. ");
         furhat.ask("Would you like to change the number of people you are checking in?");

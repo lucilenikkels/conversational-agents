@@ -1,5 +1,6 @@
 package furhatos.app.spaceshipattendant.flow.states
 
+import furhatos.app.spaceshipattendant.flow.CustomGaze
 import furhatos.app.spaceshipattendant.flow.gaze.DataDrivenGaze
 import furhatos.app.spaceshipattendant.nlu.CheckIn
 import furhatos.flow.kotlin.State
@@ -12,7 +13,7 @@ import furhatos.nlu.common.Yes
 val RobotIntro: State = state {
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         furhat.say("Welcome to Starship Enterprise. We are currently leaving for a 12-day voyage from\n" +
                 "planet Earth to planet Vulkan. My name is Data and I am your check-in assistant for today?")

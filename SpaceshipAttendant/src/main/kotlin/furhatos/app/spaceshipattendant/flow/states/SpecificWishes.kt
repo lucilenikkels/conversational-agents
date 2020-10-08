@@ -1,5 +1,6 @@
 package furhatos.app.spaceshipattendant.flow.states
 
+import furhatos.app.spaceshipattendant.flow.CustomGaze
 import furhatos.app.spaceshipattendant.flow.Interaction
 import furhatos.app.spaceshipattendant.flow.gaze.DataDrivenGaze
 import furhatos.flow.kotlin.furhat
@@ -10,7 +11,7 @@ import furhatos.nlu.common.No
 fun SpecificWishes(name: String) = state(Interaction) {
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         furhat.say("Amazing!")
         furhat.say("The data has been entered to your name, $name.")

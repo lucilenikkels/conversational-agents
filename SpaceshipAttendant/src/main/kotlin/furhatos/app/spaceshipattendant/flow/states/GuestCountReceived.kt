@@ -1,6 +1,7 @@
 package furhatos.app.spaceshipattendant.flow.states
 
 import furhatos.app.spaceshipattendant.checkinData
+import furhatos.app.spaceshipattendant.flow.CustomGaze
 import furhatos.app.spaceshipattendant.flow.Interaction
 import furhatos.app.spaceshipattendant.flow.gaze.DataDrivenGaze
 import furhatos.flow.kotlin.State
@@ -13,7 +14,7 @@ import furhatos.nlu.common.Number
 fun GuestCountReceived(guests: Number): State = state(Interaction) {
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         users.current.checkinData.guestNumber = Integer.parseInt(guests.toText())
         furhat.say("$guests guests, alright.")

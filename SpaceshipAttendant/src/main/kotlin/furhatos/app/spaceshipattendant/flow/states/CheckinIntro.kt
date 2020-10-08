@@ -11,7 +11,7 @@ import furhatos.nlu.common.Yes
 val CheckinIntro = state {
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         furhat.say("Great! As the travel is longer than two days on our journey to Vulkan, regulation requires\n" +
                 "we ask a few questions.")

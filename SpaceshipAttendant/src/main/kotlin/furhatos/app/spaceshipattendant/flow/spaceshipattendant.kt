@@ -14,8 +14,8 @@ import kotlinx.coroutines.yield
 import kotlin.random.Random
 import furhatos.records.Location
 
-
-
+// Modify this for changing the gaze behaviour in all the states
+val CustomGaze = DataDrivenGaze;
 
 val Start = state(Interaction) {
 
@@ -27,7 +27,7 @@ val Start = state(Interaction) {
 
     onEntry {
         parallel {
-            goto(DataDrivenGaze)
+            goto(CustomGaze)
         }
         furhat.ask("Hello, how can I help you?")
     }
