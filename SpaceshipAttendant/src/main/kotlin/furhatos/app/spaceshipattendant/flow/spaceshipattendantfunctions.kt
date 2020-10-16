@@ -5,6 +5,7 @@ import furhatos.app.spaceshipattendant.checkinData
 import furhatos.app.spaceshipattendant.nlu.*
 import furhatos.app.spaceshipattendant.valence
 import furhatos.flow.kotlin.*
+import furhatos.gestures.Gestures
 import furhatos.nlu.common.*
 import furhatos.records.Location
 
@@ -68,6 +69,17 @@ fun sendGetRequest() : State = state {
         val values = response.split(' ')
         users.current.valence = values[0].toDouble()
         users.current.arousal = values[1].toDouble()
-        println("Valence: ${values[0].toDouble()}, Arousal: ${values[1].toDouble()}")
+        goto(mimic)
+    }
+}
+
+val mimic : State = state {
+    onEntry {
+        println("Valence: ${users.current.valence}")
+        when {
+            users.current.valence!! > 0.3 -> furhat.gesture(Gestures.BigSmile)
+            users.current.valence!! > -0.1 -> furhat.gesture(Gestures.Smile)
+            else -> furhat.gesture(Gestures.ExpressDisgust)
+        }
     }
 }
