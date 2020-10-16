@@ -1,6 +1,7 @@
 package furhatos.app.spaceshipattendant
 
 import furhatos.app.spaceshipattendant.nlu.*
+import furhatos.flow.kotlin.NullSafeUserDataDelegate
 import furhatos.nlu.common.PersonName
 import furhatos.records.User
 
@@ -18,6 +19,9 @@ class CheckinData (
                 "As specific whishes you have: $wishes. You signed up for $activities"
     }
 }
+
+var User.valence : Double? by NullSafeUserDataDelegate() { 0.0 }
+var User.arousal : Double? by NullSafeUserDataDelegate() { 0.0 }
 
 
 val User.checkinData : CheckinData

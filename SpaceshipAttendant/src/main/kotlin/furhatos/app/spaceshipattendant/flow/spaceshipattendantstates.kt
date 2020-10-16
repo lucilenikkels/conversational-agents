@@ -18,6 +18,10 @@ val gazeInterval = 100..6000
 
 val InitialState = state(Interaction) {
 
+    onTime(repeat = 1000) {
+        call(sendGetRequest())
+    }
+
     onEntry {
         parallel {
             goto(glanceState)

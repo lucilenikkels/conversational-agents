@@ -1,7 +1,9 @@
 package furhatos.app.spaceshipattendant.flow
 
+import furhatos.app.spaceshipattendant.arousal
 import furhatos.app.spaceshipattendant.checkinData
 import furhatos.app.spaceshipattendant.nlu.*
+import furhatos.app.spaceshipattendant.valence
 import furhatos.flow.kotlin.*
 import furhatos.nlu.common.*
 import furhatos.records.Location
@@ -58,4 +60,14 @@ fun sampleGaussian(mean : Double, std : Double) : Int {
     val x = ((r.nextGaussian() * std + mean) * 1000).toInt()
 //    println("$x sampled")
     return x
+}
+
+fun sendGetRequest() : State = state {
+    onEntry {
+        val response = khttp.get("http://127.0.0.1:5000/get_emotion").text
+        val values = response.split(' ')
+        users.current.valence = values[0].toDouble()
+        users.current.arousal = values[1].toDouble()
+        println("Valence: ${values[0].toDouble()}, Arousal: ${values[1].toDouble()}")
+    }
 }
